@@ -33,3 +33,16 @@ C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.Frm_admonClientes.resources
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_admonProveedores.resources
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe.config
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\SAE 2019.pdb
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csprojAssemblyReference.cache
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.Frm_admonClientes.resources
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Form1.resources
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_productos.resources
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Properties.Resources.resources
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_admonProveedores.resources
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.GenerateResource.cache
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
+C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb

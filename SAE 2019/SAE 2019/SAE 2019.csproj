@@ -52,6 +52,12 @@
     <Compile Include="Clientes\Frm_admonClientes.Designer.cs">
       <DependentUpon>Frm_admonClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="facturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="facturacion.Designer.cs">
+      <DependentUpon>facturacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
