@@ -72,6 +72,12 @@
     <Compile Include="Proveedores\Frm_admonProveedores.Designer.cs">
       <DependentUpon>Frm_admonProveedores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Proveedores\Frm_pagoProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores\Frm_pagoProveedores.Designer.cs">
+      <DependentUpon>Frm_pagoProveedores.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Clientes\Frm_admonClientes.resx">
       <DependentUpon>Frm_admonClientes.cs</DependentUpon>
     </EmbeddedResource>
