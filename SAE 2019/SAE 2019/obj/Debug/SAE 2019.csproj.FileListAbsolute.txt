@@ -24,7 +24,6 @@ C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe.config
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\SAE 2019.pdb
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csprojAssemblyReference.cache
-C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Form1.resources
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_productos.resources
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Properties.Resources.resources
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.GenerateResource.cache
@@ -33,3 +32,60 @@ C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.Frm_admonClientes.resources
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_admonProveedores.resources
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.dll.config
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CopyComplete
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.frm_mdisae.resources
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\security.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\security.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\InicioSesion.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\BIT.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\logica.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\Logic.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\datos.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\Data.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\InicioSesion.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\BIT.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\logica.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\Logic.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\datos.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\Data.pdb
