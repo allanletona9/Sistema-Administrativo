@@ -33,8 +33,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="alebb">
-      <HintPath>..\..\alebb\alebb\bin\Debug\alebb.dll</HintPath>
+    <Reference Include="CapaDatos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Navegador\CapaDatos\bin\Debug\CapaDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaDiseno, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Navegador\CapaDiseno\bin\Debug\CapaDiseno.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaLogica, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Navegador\CapaDiseno\bin\Debug\CapaLogica.dll</HintPath>
     </Reference>
     <Reference Include="ConsultasInteligentes">
       <HintPath>..\..\ConsultasInteligentes\ConsultasInteligentes\bin\Debug\ConsultasInteligentes.dll</HintPath>
@@ -109,6 +118,9 @@
     </Compile>
     <EmbeddedResource Include="Clientes\Frm_admonClientes.resx">
       <DependentUpon>Frm_admonClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\frm_mostrarclientes.resx">
+      <DependentUpon>frm_mostrarclientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_mdisae.resx">
       <DependentUpon>frm_mdisae.cs</DependentUpon>

@@ -71,17 +71,17 @@ namespace SAE_2019
         }
 
         bool ventanaRegistroClientes = false;
-        Frm_admonClientes frmRegistroDeClientes = new Frm_admonClientes();
+        frm_mostrarclientes frmRegistroDeClientes = new frm_mostrarclientes();
 
         private void administracionDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_admonClientes);
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frm_mostrarclientes);
             if (ventanaRegistroClientes == false || frmC == null)
             {
                 if (frmC == null)
                 {
-                    frmRegistroDeClientes = new Frm_admonClientes();
+                    frmRegistroDeClientes = new frm_mostrarclientes();
                 }
                 frmRegistroDeClientes.Location = new Point(500, 600);
 
