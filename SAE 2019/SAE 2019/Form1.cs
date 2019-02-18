@@ -104,5 +104,55 @@ namespace SAE_2019
                 frmRegistroDeProveedores.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
+
+        bool ventanaRegistroKardex = false;
+        Frm_kardex frmRegistroDeKardex = new Frm_kardex();
+
+        private void kardexToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_kardex);
+            if (ventanaRegistroKardex == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    frmRegistroDeKardex = new Frm_kardex();
+                }
+                frmRegistroDeKardex.Location = new Point(500, 600);
+
+                frmRegistroDeKardex.MdiParent = this;
+                frmRegistroDeKardex.Show();
+                Application.DoEvents();
+                ventanaRegistroKardex = true;
+            }
+            else
+            {
+                frmRegistroDeKardex.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaRegistroAlmacenes = false;
+        Frm_almacenes frmRegistroDeAlmacenes = new Frm_almacenes();
+
+        private void almacenesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_almacenes);
+            if (ventanaRegistroAlmacenes == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    frmRegistroDeAlmacenes = new Frm_almacenes();
+                }
+                frmRegistroDeAlmacenes.Location = new Point(500, 600);
+
+                frmRegistroDeAlmacenes.MdiParent = this;
+                frmRegistroDeAlmacenes.Show();
+                Application.DoEvents();
+                ventanaRegistroAlmacenes = true;
+            }
+            else
+            {
+                frmRegistroDeAlmacenes.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
     }
 }

@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_admonProveedores));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Lbl_proveedores = new System.Windows.Forms.Label();
-            this.Btn_iconoProveedor = new System.Windows.Forms.Button();
-            this.Btn_minimizar = new System.Windows.Forms.Button();
             this.Btn_cerrar = new System.Windows.Forms.Button();
+            this.Btn_minimizar = new System.Windows.Forms.Button();
+            this.Btn_iconoProveedor = new System.Windows.Forms.Button();
+            this.Lbl_proveedores = new System.Windows.Forms.Label();
             this.Txt_idProveedor = new System.Windows.Forms.TextBox();
             this.Lbl_idProveedor = new System.Windows.Forms.Label();
             this.Txt_nitProveedor = new System.Windows.Forms.TextBox();
@@ -62,27 +62,18 @@
             this.panel1.Size = new System.Drawing.Size(915, 48);
             this.panel1.TabIndex = 0;
             // 
-            // Lbl_proveedores
+            // Btn_cerrar
             // 
-            this.Lbl_proveedores.AutoSize = true;
-            this.Lbl_proveedores.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_proveedores.Location = new System.Drawing.Point(74, 16);
-            this.Lbl_proveedores.Name = "Lbl_proveedores";
-            this.Lbl_proveedores.Size = new System.Drawing.Size(147, 23);
-            this.Lbl_proveedores.TabIndex = 11;
-            this.Lbl_proveedores.Text = "PROVEEDORES";
-            // 
-            // Btn_iconoProveedor
-            // 
-            this.Btn_iconoProveedor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_iconoProveedor.BackgroundImage")));
-            this.Btn_iconoProveedor.Enabled = false;
-            this.Btn_iconoProveedor.FlatAppearance.BorderSize = 0;
-            this.Btn_iconoProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_iconoProveedor.Location = new System.Drawing.Point(20, 0);
-            this.Btn_iconoProveedor.Name = "Btn_iconoProveedor";
-            this.Btn_iconoProveedor.Size = new System.Drawing.Size(48, 48);
-            this.Btn_iconoProveedor.TabIndex = 12;
-            this.Btn_iconoProveedor.UseVisualStyleBackColor = true;
+            this.Btn_cerrar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_cerrar.BackgroundImage")));
+            this.Btn_cerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.Btn_cerrar.FlatAppearance.BorderSize = 0;
+            this.Btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_cerrar.Location = new System.Drawing.Point(836, 0);
+            this.Btn_cerrar.Name = "Btn_cerrar";
+            this.Btn_cerrar.Size = new System.Drawing.Size(48, 48);
+            this.Btn_cerrar.TabIndex = 14;
+            this.Btn_cerrar.UseVisualStyleBackColor = true;
+            this.Btn_cerrar.Click += new System.EventHandler(this.Btn_cerrar_Click);
             // 
             // Btn_minimizar
             // 
@@ -97,18 +88,27 @@
             this.Btn_minimizar.UseVisualStyleBackColor = true;
             this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
             // 
-            // Btn_cerrar
+            // Btn_iconoProveedor
             // 
-            this.Btn_cerrar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_cerrar.BackgroundImage")));
-            this.Btn_cerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.Btn_cerrar.FlatAppearance.BorderSize = 0;
-            this.Btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_cerrar.Location = new System.Drawing.Point(836, 0);
-            this.Btn_cerrar.Name = "Btn_cerrar";
-            this.Btn_cerrar.Size = new System.Drawing.Size(48, 48);
-            this.Btn_cerrar.TabIndex = 14;
-            this.Btn_cerrar.UseVisualStyleBackColor = true;
-            this.Btn_cerrar.Click += new System.EventHandler(this.Btn_cerrar_Click);
+            this.Btn_iconoProveedor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_iconoProveedor.BackgroundImage")));
+            this.Btn_iconoProveedor.Enabled = false;
+            this.Btn_iconoProveedor.FlatAppearance.BorderSize = 0;
+            this.Btn_iconoProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_iconoProveedor.Location = new System.Drawing.Point(20, 0);
+            this.Btn_iconoProveedor.Name = "Btn_iconoProveedor";
+            this.Btn_iconoProveedor.Size = new System.Drawing.Size(48, 48);
+            this.Btn_iconoProveedor.TabIndex = 12;
+            this.Btn_iconoProveedor.UseVisualStyleBackColor = true;
+            // 
+            // Lbl_proveedores
+            // 
+            this.Lbl_proveedores.AutoSize = true;
+            this.Lbl_proveedores.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_proveedores.Location = new System.Drawing.Point(74, 16);
+            this.Lbl_proveedores.Name = "Lbl_proveedores";
+            this.Lbl_proveedores.Size = new System.Drawing.Size(147, 23);
+            this.Lbl_proveedores.TabIndex = 11;
+            this.Lbl_proveedores.Text = "PROVEEDORES";
             // 
             // Txt_idProveedor
             // 
@@ -230,8 +230,7 @@
             // 
             // Frm_admonProveedores
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(915, 653);
             this.Controls.Add(this.Txt_estadoProveedor);
@@ -248,7 +247,7 @@
             this.Controls.Add(this.Txt_dirProveedor);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_admonProveedores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_admonProveedores";

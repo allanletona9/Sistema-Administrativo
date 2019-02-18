@@ -58,6 +58,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inventario\Frm_almacenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\Frm_almacenes.Designer.cs">
+      <DependentUpon>Frm_almacenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Frm_kardex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\Frm_kardex.Designer.cs">
+      <DependentUpon>Frm_kardex.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inventario\Frm_productos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +95,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Frm_almacenes.resx">
+      <DependentUpon>Frm_almacenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Frm_kardex.resx">
+      <DependentUpon>Frm_kardex.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inventario\Frm_productos.resx">
       <DependentUpon>Frm_productos.cs</DependentUpon>
