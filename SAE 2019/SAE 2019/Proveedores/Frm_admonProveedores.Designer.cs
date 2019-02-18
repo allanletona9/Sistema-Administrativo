@@ -28,19 +28,255 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_admonProveedores));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.Lbl_proveedores = new System.Windows.Forms.Label();
+            this.Btn_iconoProveedor = new System.Windows.Forms.Button();
+            this.Btn_minimizar = new System.Windows.Forms.Button();
+            this.Btn_cerrar = new System.Windows.Forms.Button();
+            this.Txt_idProveedor = new System.Windows.Forms.TextBox();
+            this.Lbl_idProveedor = new System.Windows.Forms.Label();
+            this.Txt_nitProveedor = new System.Windows.Forms.TextBox();
+            this.Txt_paisProveedor = new System.Windows.Forms.TextBox();
+            this.Lbl_nombreProveedor = new System.Windows.Forms.Label();
+            this.Lbl_paisProveedor = new System.Windows.Forms.Label();
+            this.Lbl_dirProveedor = new System.Windows.Forms.Label();
+            this.Txt_nombreProveedor = new System.Windows.Forms.TextBox();
+            this.Lbl_nitProveedor = new System.Windows.Forms.Label();
+            this.Txt_dirProveedor = new System.Windows.Forms.TextBox();
+            this.Lbl_estadoProveedor = new System.Windows.Forms.Label();
+            this.Txt_estadoProveedor = new System.Windows.Forms.TextBox();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(161)))), ((int)(((byte)(22)))));
+            this.panel1.Controls.Add(this.Btn_cerrar);
+            this.panel1.Controls.Add(this.Btn_minimizar);
+            this.panel1.Controls.Add(this.Btn_iconoProveedor);
+            this.panel1.Controls.Add(this.Lbl_proveedores);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(915, 48);
+            this.panel1.TabIndex = 0;
+            // 
+            // Lbl_proveedores
+            // 
+            this.Lbl_proveedores.AutoSize = true;
+            this.Lbl_proveedores.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_proveedores.Location = new System.Drawing.Point(74, 16);
+            this.Lbl_proveedores.Name = "Lbl_proveedores";
+            this.Lbl_proveedores.Size = new System.Drawing.Size(147, 23);
+            this.Lbl_proveedores.TabIndex = 11;
+            this.Lbl_proveedores.Text = "PROVEEDORES";
+            // 
+            // Btn_iconoProveedor
+            // 
+            this.Btn_iconoProveedor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_iconoProveedor.BackgroundImage")));
+            this.Btn_iconoProveedor.Enabled = false;
+            this.Btn_iconoProveedor.FlatAppearance.BorderSize = 0;
+            this.Btn_iconoProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_iconoProveedor.Location = new System.Drawing.Point(20, 0);
+            this.Btn_iconoProveedor.Name = "Btn_iconoProveedor";
+            this.Btn_iconoProveedor.Size = new System.Drawing.Size(48, 48);
+            this.Btn_iconoProveedor.TabIndex = 12;
+            this.Btn_iconoProveedor.UseVisualStyleBackColor = true;
+            // 
+            // Btn_minimizar
+            // 
+            this.Btn_minimizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_minimizar.BackgroundImage")));
+            this.Btn_minimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.Btn_minimizar.FlatAppearance.BorderSize = 0;
+            this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_minimizar.Location = new System.Drawing.Point(767, 0);
+            this.Btn_minimizar.Name = "Btn_minimizar";
+            this.Btn_minimizar.Size = new System.Drawing.Size(48, 48);
+            this.Btn_minimizar.TabIndex = 13;
+            this.Btn_minimizar.UseVisualStyleBackColor = true;
+            this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
+            // 
+            // Btn_cerrar
+            // 
+            this.Btn_cerrar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_cerrar.BackgroundImage")));
+            this.Btn_cerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.Btn_cerrar.FlatAppearance.BorderSize = 0;
+            this.Btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_cerrar.Location = new System.Drawing.Point(836, 0);
+            this.Btn_cerrar.Name = "Btn_cerrar";
+            this.Btn_cerrar.Size = new System.Drawing.Size(48, 48);
+            this.Btn_cerrar.TabIndex = 14;
+            this.Btn_cerrar.UseVisualStyleBackColor = true;
+            this.Btn_cerrar.Click += new System.EventHandler(this.Btn_cerrar_Click);
+            // 
+            // Txt_idProveedor
+            // 
+            this.Txt_idProveedor.Location = new System.Drawing.Point(458, 180);
+            this.Txt_idProveedor.Multiline = true;
+            this.Txt_idProveedor.Name = "Txt_idProveedor";
+            this.Txt_idProveedor.Size = new System.Drawing.Size(195, 31);
+            this.Txt_idProveedor.TabIndex = 20;
+            this.Txt_idProveedor.Tag = "1";
+            // 
+            // Lbl_idProveedor
+            // 
+            this.Lbl_idProveedor.AutoSize = true;
+            this.Lbl_idProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_idProveedor.Location = new System.Drawing.Point(208, 190);
+            this.Lbl_idProveedor.Name = "Lbl_idProveedor";
+            this.Lbl_idProveedor.Size = new System.Drawing.Size(141, 19);
+            this.Lbl_idProveedor.TabIndex = 19;
+            this.Lbl_idProveedor.Text = "ID del producto:";
+            // 
+            // Txt_nitProveedor
+            // 
+            this.Txt_nitProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_nitProveedor.Location = new System.Drawing.Point(458, 300);
+            this.Txt_nitProveedor.Multiline = true;
+            this.Txt_nitProveedor.Name = "Txt_nitProveedor";
+            this.Txt_nitProveedor.Size = new System.Drawing.Size(195, 31);
+            this.Txt_nitProveedor.TabIndex = 14;
+            this.Txt_nitProveedor.Tag = "3";
+            // 
+            // Txt_paisProveedor
+            // 
+            this.Txt_paisProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_paisProveedor.Location = new System.Drawing.Point(458, 420);
+            this.Txt_paisProveedor.Multiline = true;
+            this.Txt_paisProveedor.Name = "Txt_paisProveedor";
+            this.Txt_paisProveedor.Size = new System.Drawing.Size(195, 31);
+            this.Txt_paisProveedor.TabIndex = 18;
+            this.Txt_paisProveedor.Tag = "5";
+            // 
+            // Lbl_nombreProveedor
+            // 
+            this.Lbl_nombreProveedor.AutoSize = true;
+            this.Lbl_nombreProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_nombreProveedor.Location = new System.Drawing.Point(208, 250);
+            this.Lbl_nombreProveedor.Name = "Lbl_nombreProveedor";
+            this.Lbl_nombreProveedor.Size = new System.Drawing.Size(191, 19);
+            this.Lbl_nombreProveedor.TabIndex = 11;
+            this.Lbl_nombreProveedor.Text = "Nombre del producto:";
+            // 
+            // Lbl_paisProveedor
+            // 
+            this.Lbl_paisProveedor.AutoSize = true;
+            this.Lbl_paisProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_paisProveedor.Location = new System.Drawing.Point(208, 430);
+            this.Lbl_paisProveedor.Name = "Lbl_paisProveedor";
+            this.Lbl_paisProveedor.Size = new System.Drawing.Size(168, 19);
+            this.Lbl_paisProveedor.TabIndex = 17;
+            this.Lbl_paisProveedor.Text = "País del Proveedor:";
+            // 
+            // Lbl_dirProveedor
+            // 
+            this.Lbl_dirProveedor.AutoSize = true;
+            this.Lbl_dirProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_dirProveedor.Location = new System.Drawing.Point(208, 370);
+            this.Lbl_dirProveedor.Name = "Lbl_dirProveedor";
+            this.Lbl_dirProveedor.Size = new System.Drawing.Size(215, 19);
+            this.Lbl_dirProveedor.TabIndex = 15;
+            this.Lbl_dirProveedor.Text = "Dirección del proveedor:";
+            // 
+            // Txt_nombreProveedor
+            // 
+            this.Txt_nombreProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_nombreProveedor.Location = new System.Drawing.Point(458, 240);
+            this.Txt_nombreProveedor.Multiline = true;
+            this.Txt_nombreProveedor.Name = "Txt_nombreProveedor";
+            this.Txt_nombreProveedor.Size = new System.Drawing.Size(195, 31);
+            this.Txt_nombreProveedor.TabIndex = 12;
+            this.Txt_nombreProveedor.Tag = "2";
+            // 
+            // Lbl_nitProveedor
+            // 
+            this.Lbl_nitProveedor.AutoSize = true;
+            this.Lbl_nitProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_nitProveedor.Location = new System.Drawing.Point(208, 310);
+            this.Lbl_nitProveedor.Name = "Lbl_nitProveedor";
+            this.Lbl_nitProveedor.Size = new System.Drawing.Size(161, 19);
+            this.Lbl_nitProveedor.TabIndex = 13;
+            this.Lbl_nitProveedor.Text = "NIT del proveedor:";
+            // 
+            // Txt_dirProveedor
+            // 
+            this.Txt_dirProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_dirProveedor.Location = new System.Drawing.Point(458, 360);
+            this.Txt_dirProveedor.Multiline = true;
+            this.Txt_dirProveedor.Name = "Txt_dirProveedor";
+            this.Txt_dirProveedor.Size = new System.Drawing.Size(195, 31);
+            this.Txt_dirProveedor.TabIndex = 16;
+            this.Txt_dirProveedor.Tag = "4";
+            // 
+            // Lbl_estadoProveedor
+            // 
+            this.Lbl_estadoProveedor.AutoSize = true;
+            this.Lbl_estadoProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_estadoProveedor.Location = new System.Drawing.Point(208, 490);
+            this.Lbl_estadoProveedor.Name = "Lbl_estadoProveedor";
+            this.Lbl_estadoProveedor.Size = new System.Drawing.Size(189, 19);
+            this.Lbl_estadoProveedor.TabIndex = 21;
+            this.Lbl_estadoProveedor.Text = "Estado del Proveedor:";
+            // 
+            // Txt_estadoProveedor
+            // 
+            this.Txt_estadoProveedor.Location = new System.Drawing.Point(458, 480);
+            this.Txt_estadoProveedor.Multiline = true;
+            this.Txt_estadoProveedor.Name = "Txt_estadoProveedor";
+            this.Txt_estadoProveedor.Size = new System.Drawing.Size(195, 31);
+            this.Txt_estadoProveedor.TabIndex = 22;
+            this.Txt_estadoProveedor.Tag = "6";
             // 
             // Frm_admonProveedores
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(899, 614);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(915, 653);
+            this.Controls.Add(this.Txt_estadoProveedor);
+            this.Controls.Add(this.Lbl_estadoProveedor);
+            this.Controls.Add(this.Txt_idProveedor);
+            this.Controls.Add(this.Lbl_idProveedor);
+            this.Controls.Add(this.Txt_nitProveedor);
+            this.Controls.Add(this.Txt_paisProveedor);
+            this.Controls.Add(this.Lbl_nombreProveedor);
+            this.Controls.Add(this.Lbl_paisProveedor);
+            this.Controls.Add(this.Lbl_dirProveedor);
+            this.Controls.Add(this.Txt_nombreProveedor);
+            this.Controls.Add(this.Lbl_nitProveedor);
+            this.Controls.Add(this.Txt_dirProveedor);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_admonProveedores";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_admonProveedores";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label Lbl_proveedores;
+        private System.Windows.Forms.Button Btn_iconoProveedor;
+        private System.Windows.Forms.Button Btn_minimizar;
+        private System.Windows.Forms.Button Btn_cerrar;
+        private System.Windows.Forms.TextBox Txt_idProveedor;
+        private System.Windows.Forms.Label Lbl_idProveedor;
+        private System.Windows.Forms.TextBox Txt_nitProveedor;
+        private System.Windows.Forms.TextBox Txt_paisProveedor;
+        private System.Windows.Forms.Label Lbl_nombreProveedor;
+        private System.Windows.Forms.Label Lbl_paisProveedor;
+        private System.Windows.Forms.Label Lbl_dirProveedor;
+        private System.Windows.Forms.TextBox Txt_nombreProveedor;
+        private System.Windows.Forms.Label Lbl_nitProveedor;
+        private System.Windows.Forms.TextBox Txt_dirProveedor;
+        private System.Windows.Forms.Label Lbl_estadoProveedor;
+        private System.Windows.Forms.TextBox Txt_estadoProveedor;
     }
 }
