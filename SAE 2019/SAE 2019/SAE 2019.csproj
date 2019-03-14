@@ -33,6 +33,28 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CapaDatos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Navegador\CapaDatos\bin\Debug\CapaDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaDiseno, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Navegador\CapaDiseno\bin\Debug\CapaDiseno.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaLogica, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Navegador\CapaDiseno\bin\Debug\CapaLogica.dll</HintPath>
+    </Reference>
+    <Reference Include="ConsultasInteligentes">
+      <HintPath>..\..\ConsultasInteligentes\ConsultasInteligentes\bin\Debug\ConsultasInteligentes.dll</HintPath>
+    </Reference>
+    <Reference Include="InicioSesion, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\security\security\bin\Debug\InicioSesion.dll</HintPath>
+    </Reference>
+    <Reference Include="security">
+      <HintPath>..\..\..\security\security\bin\Debug\security.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,11 +74,17 @@
     <Compile Include="Clientes\Frm_admonClientes.Designer.cs">
       <DependentUpon>Frm_admonClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Clientes\frm_mostrarclientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Clientes\frm_mostrarclientes.Designer.cs">
+      <DependentUpon>frm_mostrarclientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_mdisae.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_mdisae.Designer.cs">
+      <DependentUpon>frm_mdisae.cs</DependentUpon>
     </Compile>
     <Compile Include="Inventario\Frm_almacenes.cs">
       <SubType>Form</SubType>
@@ -84,17 +112,14 @@
     <Compile Include="Proveedores\Frm_admonProveedores.Designer.cs">
       <DependentUpon>Frm_admonProveedores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proveedores\Frm_pagoProveedores.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Proveedores\Frm_pagoProveedores.Designer.cs">
-      <DependentUpon>Frm_pagoProveedores.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Clientes\Frm_admonClientes.resx">
       <DependentUpon>Frm_admonClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Clientes\frm_mostrarclientes.resx">
+      <DependentUpon>frm_mostrarclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_mdisae.resx">
+      <DependentUpon>frm_mdisae.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inventario\Frm_almacenes.resx">
       <DependentUpon>Frm_almacenes.cs</DependentUpon>

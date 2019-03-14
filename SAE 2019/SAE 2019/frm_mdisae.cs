@@ -10,21 +10,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ConsultasInteligentes;
+using security;
+using InicioSesion;
 
 namespace SAE_2019
 {
-    public partial class Form1 : Form
+    public partial class frm_mdisae : Form
     {
+        String[] tablas = { "tbl_usuario", "tbl_query", "tbl_modulo" };
 
-        public Form1()
+        public frm_mdisae()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
-           
+            //this.panel1.Size = this.Size;
+            InicioSesionForm inicioSes = new InicioSesionForm();
+            inicioSes.FormClosed += new FormClosedEventHandler(form2_FormClosed);
+            inicioSes.ShowDialog();
+            inicioSes.TopMost = true;
+            inicioSes.Activate();
+        }
+
+        void form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // Do whatever you want here
+            Usuario u = new Usuario();
+            //label9.Text = u.obtenerUsuario();
+
         }
 
         bool ventanaRegistroProductos = false;
@@ -55,17 +71,17 @@ namespace SAE_2019
         }
 
         bool ventanaRegistroClientes = false;
-        Frm_admonClientes frmRegistroDeClientes = new Frm_admonClientes();
+        frm_mostrarclientes frmRegistroDeClientes = new frm_mostrarclientes();
 
         private void administracionDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_admonClientes);
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frm_mostrarclientes);
             if (ventanaRegistroClientes == false || frmC == null)
             {
                 if (frmC == null)
                 {
-                    frmRegistroDeClientes = new Frm_admonClientes();
+                    frmRegistroDeClientes = new frm_mostrarclientes();
                 }
                 frmRegistroDeClientes.Location = new Point(500, 600);
 
@@ -103,6 +119,19 @@ namespace SAE_2019
             {
                 frmRegistroDeProveedores.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
+        }
+
+        private void consultasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_menu consulta = new frm_menu("20", tablas);
+            consulta.Show();
+        }
+
+        private void soporteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_security seguridad = new Frm_security();
+            seguridad.Show();
+             
         }
 
         bool ventanaRegistroKardex = false;

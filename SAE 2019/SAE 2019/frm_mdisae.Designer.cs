@@ -1,6 +1,6 @@
 ﻿namespace SAE_2019
 {
-    partial class Form1
+    partial class frm_mdisae
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -50,6 +50,8 @@
             this.proveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administracionDeProveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.soporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +64,9 @@
             this.productosToolStripMenuItem,
             this.bodegaToolStripMenuItem,
             this.comprasToolStripMenuItem,
-            this.proveedoresToolStripMenuItem});
+            this.proveedoresToolStripMenuItem,
+            this.soporteToolStripMenuItem,
+            this.consultasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
@@ -222,7 +226,21 @@
             this.pagoToolStripMenuItem.Size = new System.Drawing.Size(291, 26);
             this.pagoToolStripMenuItem.Text = "Pago";
             // 
-            // Form1
+            // soporteToolStripMenuItem
+            // 
+            this.soporteToolStripMenuItem.Name = "soporteToolStripMenuItem";
+            this.soporteToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
+            this.soporteToolStripMenuItem.Text = "Soporte";
+            this.soporteToolStripMenuItem.Click += new System.EventHandler(this.soporteToolStripMenuItem_Click);
+            // 
+            // consultasToolStripMenuItem
+            // 
+            this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
+            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
+            this.consultasToolStripMenuItem.Text = "Consultas";
+            this.consultasToolStripMenuItem.Click += new System.EventHandler(this.consultasToolStripMenuItem_Click);
+            // 
+            // frm_mdisae
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -231,7 +249,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "frm_mdisae";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SAE 2019";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -267,6 +285,8 @@
         private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem administracionDeProveedoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pagoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem soporteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
     }
 }
 
