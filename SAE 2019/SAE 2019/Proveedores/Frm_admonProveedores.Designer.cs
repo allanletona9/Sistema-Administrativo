@@ -59,7 +59,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(915, 48);
+            this.panel1.Size = new System.Drawing.Size(1220, 59);
             this.panel1.TabIndex = 0;
             // 
             // Btn_cerrar
@@ -68,7 +68,7 @@
             this.Btn_cerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Btn_cerrar.FlatAppearance.BorderSize = 0;
             this.Btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_cerrar.Location = new System.Drawing.Point(836, 0);
+            this.Btn_cerrar.Location = new System.Drawing.Point(1115, 0);
             this.Btn_cerrar.Name = "Btn_cerrar";
             this.Btn_cerrar.Size = new System.Drawing.Size(48, 48);
             this.Btn_cerrar.TabIndex = 14;
@@ -81,7 +81,7 @@
             this.Btn_minimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Btn_minimizar.FlatAppearance.BorderSize = 0;
             this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_minimizar.Location = new System.Drawing.Point(767, 0);
+            this.Btn_minimizar.Location = new System.Drawing.Point(1023, 0);
             this.Btn_minimizar.Name = "Btn_minimizar";
             this.Btn_minimizar.Size = new System.Drawing.Size(48, 48);
             this.Btn_minimizar.TabIndex = 13;
@@ -94,7 +94,7 @@
             this.Btn_iconoProveedor.Enabled = false;
             this.Btn_iconoProveedor.FlatAppearance.BorderSize = 0;
             this.Btn_iconoProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_iconoProveedor.Location = new System.Drawing.Point(20, 0);
+            this.Btn_iconoProveedor.Location = new System.Drawing.Point(20, 5);
             this.Btn_iconoProveedor.Name = "Btn_iconoProveedor";
             this.Btn_iconoProveedor.Size = new System.Drawing.Size(48, 48);
             this.Btn_iconoProveedor.TabIndex = 12;
@@ -104,7 +104,7 @@
             // 
             this.Lbl_proveedores.AutoSize = true;
             this.Lbl_proveedores.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_proveedores.Location = new System.Drawing.Point(74, 16);
+            this.Lbl_proveedores.Location = new System.Drawing.Point(99, 20);
             this.Lbl_proveedores.Name = "Lbl_proveedores";
             this.Lbl_proveedores.Size = new System.Drawing.Size(147, 23);
             this.Lbl_proveedores.TabIndex = 11;
@@ -112,10 +112,10 @@
             // 
             // Txt_idProveedor
             // 
-            this.Txt_idProveedor.Location = new System.Drawing.Point(458, 180);
+            this.Txt_idProveedor.Location = new System.Drawing.Point(595, 288);
             this.Txt_idProveedor.Multiline = true;
             this.Txt_idProveedor.Name = "Txt_idProveedor";
-            this.Txt_idProveedor.Size = new System.Drawing.Size(195, 31);
+            this.Txt_idProveedor.Size = new System.Drawing.Size(259, 37);
             this.Txt_idProveedor.TabIndex = 20;
             this.Txt_idProveedor.Tag = "1";
             // 
@@ -123,29 +123,29 @@
             // 
             this.Lbl_idProveedor.AutoSize = true;
             this.Lbl_idProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_idProveedor.Location = new System.Drawing.Point(208, 190);
+            this.Lbl_idProveedor.Location = new System.Drawing.Point(261, 300);
             this.Lbl_idProveedor.Name = "Lbl_idProveedor";
-            this.Lbl_idProveedor.Size = new System.Drawing.Size(141, 19);
+            this.Lbl_idProveedor.Size = new System.Drawing.Size(153, 19);
             this.Lbl_idProveedor.TabIndex = 19;
-            this.Lbl_idProveedor.Text = "ID del producto:";
+            this.Lbl_idProveedor.Text = "ID del proveedor:";
             // 
             // Txt_nitProveedor
             // 
             this.Txt_nitProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_nitProveedor.Location = new System.Drawing.Point(458, 300);
+            this.Txt_nitProveedor.Location = new System.Drawing.Point(595, 438);
             this.Txt_nitProveedor.Multiline = true;
             this.Txt_nitProveedor.Name = "Txt_nitProveedor";
-            this.Txt_nitProveedor.Size = new System.Drawing.Size(195, 31);
+            this.Txt_nitProveedor.Size = new System.Drawing.Size(259, 37);
             this.Txt_nitProveedor.TabIndex = 14;
             this.Txt_nitProveedor.Tag = "3";
             // 
             // Txt_paisProveedor
             // 
             this.Txt_paisProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_paisProveedor.Location = new System.Drawing.Point(458, 420);
+            this.Txt_paisProveedor.Location = new System.Drawing.Point(595, 586);
             this.Txt_paisProveedor.Multiline = true;
             this.Txt_paisProveedor.Name = "Txt_paisProveedor";
-            this.Txt_paisProveedor.Size = new System.Drawing.Size(195, 31);
+            this.Txt_paisProveedor.Size = new System.Drawing.Size(259, 37);
             this.Txt_paisProveedor.TabIndex = 18;
             this.Txt_paisProveedor.Tag = "5";
             // 
@@ -153,7 +153,7 @@
             // 
             this.Lbl_nombreProveedor.AutoSize = true;
             this.Lbl_nombreProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_nombreProveedor.Location = new System.Drawing.Point(208, 250);
+            this.Lbl_nombreProveedor.Location = new System.Drawing.Point(261, 377);
             this.Lbl_nombreProveedor.Name = "Lbl_nombreProveedor";
             this.Lbl_nombreProveedor.Size = new System.Drawing.Size(191, 19);
             this.Lbl_nombreProveedor.TabIndex = 11;
@@ -163,7 +163,7 @@
             // 
             this.Lbl_paisProveedor.AutoSize = true;
             this.Lbl_paisProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_paisProveedor.Location = new System.Drawing.Point(208, 430);
+            this.Lbl_paisProveedor.Location = new System.Drawing.Point(265, 591);
             this.Lbl_paisProveedor.Name = "Lbl_paisProveedor";
             this.Lbl_paisProveedor.Size = new System.Drawing.Size(168, 19);
             this.Lbl_paisProveedor.TabIndex = 17;
@@ -173,7 +173,7 @@
             // 
             this.Lbl_dirProveedor.AutoSize = true;
             this.Lbl_dirProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_dirProveedor.Location = new System.Drawing.Point(208, 370);
+            this.Lbl_dirProveedor.Location = new System.Drawing.Point(261, 524);
             this.Lbl_dirProveedor.Name = "Lbl_dirProveedor";
             this.Lbl_dirProveedor.Size = new System.Drawing.Size(215, 19);
             this.Lbl_dirProveedor.TabIndex = 15;
@@ -182,10 +182,10 @@
             // Txt_nombreProveedor
             // 
             this.Txt_nombreProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_nombreProveedor.Location = new System.Drawing.Point(458, 240);
+            this.Txt_nombreProveedor.Location = new System.Drawing.Point(595, 364);
             this.Txt_nombreProveedor.Multiline = true;
             this.Txt_nombreProveedor.Name = "Txt_nombreProveedor";
-            this.Txt_nombreProveedor.Size = new System.Drawing.Size(195, 31);
+            this.Txt_nombreProveedor.Size = new System.Drawing.Size(259, 37);
             this.Txt_nombreProveedor.TabIndex = 12;
             this.Txt_nombreProveedor.Tag = "2";
             // 
@@ -193,7 +193,7 @@
             // 
             this.Lbl_nitProveedor.AutoSize = true;
             this.Lbl_nitProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_nitProveedor.Location = new System.Drawing.Point(208, 310);
+            this.Lbl_nitProveedor.Location = new System.Drawing.Point(261, 450);
             this.Lbl_nitProveedor.Name = "Lbl_nitProveedor";
             this.Lbl_nitProveedor.Size = new System.Drawing.Size(161, 19);
             this.Lbl_nitProveedor.TabIndex = 13;
@@ -202,10 +202,10 @@
             // Txt_dirProveedor
             // 
             this.Txt_dirProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_dirProveedor.Location = new System.Drawing.Point(458, 360);
+            this.Txt_dirProveedor.Location = new System.Drawing.Point(595, 512);
             this.Txt_dirProveedor.Multiline = true;
             this.Txt_dirProveedor.Name = "Txt_dirProveedor";
-            this.Txt_dirProveedor.Size = new System.Drawing.Size(195, 31);
+            this.Txt_dirProveedor.Size = new System.Drawing.Size(259, 37);
             this.Txt_dirProveedor.TabIndex = 16;
             this.Txt_dirProveedor.Tag = "4";
             // 
@@ -213,7 +213,7 @@
             // 
             this.Lbl_estadoProveedor.AutoSize = true;
             this.Lbl_estadoProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_estadoProveedor.Location = new System.Drawing.Point(208, 490);
+            this.Lbl_estadoProveedor.Location = new System.Drawing.Point(265, 665);
             this.Lbl_estadoProveedor.Name = "Lbl_estadoProveedor";
             this.Lbl_estadoProveedor.Size = new System.Drawing.Size(189, 19);
             this.Lbl_estadoProveedor.TabIndex = 21;
@@ -221,10 +221,10 @@
             // 
             // Txt_estadoProveedor
             // 
-            this.Txt_estadoProveedor.Location = new System.Drawing.Point(458, 480);
+            this.Txt_estadoProveedor.Location = new System.Drawing.Point(595, 660);
             this.Txt_estadoProveedor.Multiline = true;
             this.Txt_estadoProveedor.Name = "Txt_estadoProveedor";
-            this.Txt_estadoProveedor.Size = new System.Drawing.Size(195, 31);
+            this.Txt_estadoProveedor.Size = new System.Drawing.Size(259, 37);
             this.Txt_estadoProveedor.TabIndex = 22;
             this.Txt_estadoProveedor.Tag = "6";
             // 
@@ -232,7 +232,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(915, 653);
+            this.ClientSize = new System.Drawing.Size(1220, 804);
             this.Controls.Add(this.Txt_estadoProveedor);
             this.Controls.Add(this.Lbl_estadoProveedor);
             this.Controls.Add(this.Txt_idProveedor);
