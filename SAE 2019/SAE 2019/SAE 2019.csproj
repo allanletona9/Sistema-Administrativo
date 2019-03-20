@@ -80,6 +80,30 @@
     <Compile Include="Clientes\frm_mostrarclientes.Designer.cs">
       <DependentUpon>frm_mostrarclientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Compras\Frm_facturasCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_facturasCompras.Designer.cs">
+      <DependentUpon>Frm_facturasCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_mostrarFacturasCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_mostrarFacturasCompras.Designer.cs">
+      <DependentUpon>Frm_mostrarFacturasCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_ordenCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_ordenCompra.Designer.cs">
+      <DependentUpon>Frm_ordenCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_pedidoProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_pedidoProductos.Designer.cs">
+      <DependentUpon>Frm_pedidoProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_mdisae.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,11 +136,29 @@
     <Compile Include="Proveedores\Frm_admonProveedores.Designer.cs">
       <DependentUpon>Frm_admonProveedores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Proveedores\Frm_mostrarProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores\Frm_mostrarProveedores.Designer.cs">
+      <DependentUpon>Frm_mostrarProveedores.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Clientes\Frm_admonClientes.resx">
       <DependentUpon>Frm_admonClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Clientes\frm_mostrarclientes.resx">
       <DependentUpon>frm_mostrarclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_facturasCompras.resx">
+      <DependentUpon>Frm_facturasCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_mostrarFacturasCompras.resx">
+      <DependentUpon>Frm_mostrarFacturasCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_ordenCompra.resx">
+      <DependentUpon>Frm_ordenCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_pedidoProductos.resx">
+      <DependentUpon>Frm_pedidoProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_mdisae.resx">
       <DependentUpon>frm_mdisae.cs</DependentUpon>
@@ -141,6 +183,9 @@
     </Compile>
     <EmbeddedResource Include="Proveedores\Frm_admonProveedores.resx">
       <DependentUpon>Frm_admonProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores\Frm_mostrarProveedores.resx">
+      <DependentUpon>Frm_mostrarProveedores.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -1,6 +1,7 @@
 ﻿using SAE_2019.Clientes;
 using SAE_2019.Inventario;
 using SAE_2019.Proveedores;
+using SAE_2019.Compras;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -96,28 +97,27 @@ namespace SAE_2019
             }
         }
 
-        bool ventanaRegistroProveedores = false;
-        Frm_admonProveedores frmRegistroDeProveedores = new Frm_admonProveedores();
+        bool ventanaRegistroMostrarProveedores = false;
+        Frm_mostrarProveedores mostrarProveedores = new Frm_mostrarProveedores();
 
         private void administracionDeProveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_admonProveedores);
-            if (ventanaRegistroProveedores == false || frmC == null)
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_mostrarProveedores);
+            if (ventanaRegistroMostrarProveedores == false || frmC == null)
             {
                 if (frmC == null)
                 {
-                    frmRegistroDeProveedores = new Frm_admonProveedores();
+                    mostrarProveedores = new Frm_mostrarProveedores();
                 }
-                frmRegistroDeProveedores.Location = new Point(500, 600);
-
-                frmRegistroDeProveedores.MdiParent = this;
-                frmRegistroDeProveedores.Show();
+              
+                mostrarProveedores.MdiParent = this;
+                mostrarProveedores.Show();
                 Application.DoEvents();
-                ventanaRegistroProveedores = true;
+                ventanaRegistroMostrarProveedores = true;
             }
             else
             {
-                frmRegistroDeProveedores.WindowState = System.Windows.Forms.FormWindowState.Normal;
+                mostrarProveedores.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
 
@@ -181,6 +181,78 @@ namespace SAE_2019
             else
             {
                 frmRegistroDeAlmacenes.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaRegistroMostrarFacturas = false;
+        Frm_mostrarFacturasCompras  mostrarFacturas = new Frm_mostrarFacturasCompras();
+
+        private void recepcionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_mostrarFacturasCompras);
+            if (ventanaRegistroMostrarFacturas == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    mostrarFacturas = new Frm_mostrarFacturasCompras();
+                }
+
+                mostrarFacturas.MdiParent = this;
+                mostrarFacturas.Show();
+                Application.DoEvents();
+                ventanaRegistroMostrarFacturas = true;
+            }
+            else
+            {
+                mostrarFacturas.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaRegistroPedidoProductos = false;
+        Frm_pedidoProductos pedidoProductos = new Frm_pedidoProductos();
+
+        private void ordenesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_pedidoProductos);
+            if (ventanaRegistroPedidoProductos == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    pedidoProductos = new Frm_pedidoProductos();
+                }
+
+                pedidoProductos.MdiParent = this;
+                pedidoProductos.Show();
+                Application.DoEvents();
+                ventanaRegistroPedidoProductos = true;
+            }
+            else
+            {
+                pedidoProductos.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaRegistroOrdenCompra = false;
+        Frm_ordenCompra ordenCompra = new Frm_ordenCompra();
+
+        private void comprasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_ordenCompra);
+            if (ventanaRegistroOrdenCompra == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    ordenCompra = new Frm_ordenCompra();
+                }
+
+                ordenCompra.MdiParent = this;
+                ordenCompra.Show();
+                Application.DoEvents();
+                ventanaRegistroOrdenCompra = true;
+            }
+            else
+            {
+                ordenCompra.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
     }

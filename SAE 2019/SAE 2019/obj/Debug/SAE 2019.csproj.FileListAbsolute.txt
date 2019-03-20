@@ -481,3 +481,8 @@ C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no
 C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CoreCompileInputs.cache
 C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
 C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_mostrarFacturasCompras.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_facturasCompras.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_pedidoProductos.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_mostrarProveedores.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_ordenCompra.resources
