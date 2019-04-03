@@ -1,6 +1,6 @@
-﻿namespace SAE_2019
+﻿namespace SAE_2019.Proveedores
 {
-    partial class facturacion
+    partial class Frm_pagoProveedores
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "facturacion";
+            this.Text = "Frm_pagoProveedores";
         }
 
         #endregion

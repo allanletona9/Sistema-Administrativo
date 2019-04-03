@@ -16,5 +16,15 @@ namespace SAE_2019.Proveedores
         {
             InitializeComponent();
         }
+
+        private void Btn_cerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Btn_minimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

@@ -24,7 +24,6 @@ C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe.config
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\SAE 2019.pdb
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csprojAssemblyReference.cache
-C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Form1.resources
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_productos.resources
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Properties.Resources.resources
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.GenerateResource.cache
@@ -33,16 +32,561 @@ C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.Frm_admonClientes.resources
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_admonProveedores.resources
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe.config
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\SAE 2019.pdb
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csprojAssemblyReference.cache
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.Frm_admonClientes.resources
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Form1.resources
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_productos.resources
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Properties.Resources.resources
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_admonProveedores.resources
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.GenerateResource.cache
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CoreCompileInputs.cache
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
-C:\Users\diego\Desktop\7 semestre\IS\Repositorio\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.dll.config
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CopyComplete
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.frm_mdisae.resources
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\security.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\security.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\InicioSesion.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\BIT.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\logica.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\Logic.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\datos.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\Data.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\InicioSesion.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\BIT.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\logica.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\Logic.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\datos.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\Data.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatos.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDiseno.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogica.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\DLL- Reporteador.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\FlashControlV71.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\stdole.dll
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatos.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDiseno.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogica.pdb
+C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.frm_mostrarclientes.resources
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe.config
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\SAE 2019.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\security.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\DLL- Reporteador.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\BIT.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\Logic.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\logica.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\FlashControlV71.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\Data.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\datos.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\stdole.dll
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatos.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDiseno.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogica.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.dll.config
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\InicioSesion.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\security.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\BIT.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\Logic.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\logica.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\Data.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\datos.pdb
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csprojAssemblyReference.cache
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.Frm_admonClientes.resources
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.frm_mostrarclientes.resources
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.frm_mdisae.resources
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_productos.resources
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Properties.Resources.resources
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_admonProveedores.resources
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.GenerateResource.cache
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CopyComplete
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
+C:\Users\diego\Desktop\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csprojResolveAssemblyReference.cache
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.Frm_admonClientes.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.frm_mostrarclientes.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.frm_mdisae.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_productos.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Properties.Resources.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_admonProveedores.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.GenerateResource.Cache
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CoreCompileInputs.cache
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe.config
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\SAE 2019.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\DLL- Reporteador.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\BIT.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\Logic.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\logica.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\FlashControlV71.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\Data.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\datos.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\stdole.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatos.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDiseno.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogica.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.dll.config
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\InicioSesion.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\security.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\BIT.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\Logic.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\logica.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\Data.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\datos.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_kardex.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\PRUEBAS\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_almacenes.resources
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe.config
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\SAE 2019.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\DLL- Reporteador.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\BIT.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\Logic.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\logica.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\FlashControlV71.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\Data.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\datos.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\stdole.dll
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatos.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDiseno.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogica.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.dll.config
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\InicioSesion.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\security.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\BIT.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\Logic.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\logica.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\Data.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\bin\Debug\datos.pdb
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csprojAssemblyReference.cache
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.Frm_admonClientes.resources
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.frm_mostrarclientes.resources
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.frm_mdisae.resources
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_almacenes.resources
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_kardex.resources
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_productos.resources
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Properties.Resources.resources
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_admonProveedores.resources
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.GenerateResource.cache
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CoreCompileInputs.cache
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CopyComplete
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
+C:\Users\allan\Pictures\Sistema-Administrativo-Allan_Letona\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe.config
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\SAE 2019.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\DLL- Reporteador.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\BIT.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\Logic.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\logica.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\FlashControlV71.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\Data.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\datos.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\stdole.dll
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatos.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDiseno.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogica.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.dll.config
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\InicioSesion.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\security.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\BIT.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\Logic.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\logica.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\Data.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\bin\Debug\datos.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csprojResolveAssemblyReference.cache
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.Frm_admonClientes.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.frm_mostrarclientes.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.frm_mdisae.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_almacenes.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_kardex.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_productos.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Properties.Resources.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_admonProveedores.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.GenerateResource.Cache
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CoreCompileInputs.cache
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_mostrarFacturasCompras.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_facturasCompras.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_pedidoProductos.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_mostrarProveedores.resources
+C:\Users\Edson Juarez\Desktop\UMG\Séptimo Semestre\Ingeniería de Software (9no semestre)\Proyecto Sistema Administrativo\Sistema-Administrativo\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_ordenCompra.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe.config
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\SAE 2019.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\InicioSesion.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\DLL- Reporteador.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\BIT.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\Logic.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\logica.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\FlashControlV71.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\Data.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\datos.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\stdole.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatos.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDiseno.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogica.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.dll.config
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\InicioSesion.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\security.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\BIT.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\Logic.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\logica.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\Data.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\datos.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csprojAssemblyReference.cache
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.Frm_admonClientes.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.frm_mostrarclientes.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_mostrarFacturasCompras.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_pedidoProductos.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.frm_mdisae.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_almacenes.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_kardex.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_productos.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Properties.Resources.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_admonProveedores.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_mostrarProveedores.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.GenerateResource.cache
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CopyComplete
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_GestionOrdenCompra.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_OrdenCompra.resources
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatos.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDiseno.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogica.dll
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\DLL- Reporteador.pdb
+C:\Users\diego\Desktop\SAE 2019\SAE 2019\bin\Debug\DLL- Reporteador.xml

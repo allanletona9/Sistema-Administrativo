@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SAE_2019
+namespace SAE_2019.Proveedores
 {
-    public partial class facturacion : Form
+    public partial class Frm_pagoProveedores : Form
     {
-        public facturacion()
+        public Frm_pagoProveedores()
         {
             InitializeComponent();
         }
