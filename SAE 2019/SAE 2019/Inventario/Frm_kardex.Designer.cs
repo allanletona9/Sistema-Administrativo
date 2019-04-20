@@ -30,8 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_kardex));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Lbl_kardex = new System.Windows.Forms.Label();
+            this.Btn_minimizar = new System.Windows.Forms.Button();
             this.Btn_iconoKardex = new System.Windows.Forms.Button();
+            this.Lbl_kardex = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.idInventario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -39,7 +40,6 @@
             this.idBodega = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.existencias = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Btn_salir = new System.Windows.Forms.Button();
-            this.Btn_minimizar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -57,15 +57,18 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // Lbl_kardex
+            // Btn_minimizar
             // 
-            this.Lbl_kardex.AutoSize = true;
-            this.Lbl_kardex.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_kardex.Location = new System.Drawing.Point(74, 16);
-            this.Lbl_kardex.Name = "Lbl_kardex";
-            this.Lbl_kardex.Size = new System.Drawing.Size(87, 23);
-            this.Lbl_kardex.TabIndex = 11;
-            this.Lbl_kardex.Text = "KARDEX";
+            this.Btn_minimizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_minimizar.BackgroundImage")));
+            this.Btn_minimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.Btn_minimizar.FlatAppearance.BorderSize = 0;
+            this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_minimizar.Location = new System.Drawing.Point(767, 0);
+            this.Btn_minimizar.Name = "Btn_minimizar";
+            this.Btn_minimizar.Size = new System.Drawing.Size(48, 48);
+            this.Btn_minimizar.TabIndex = 13;
+            this.Btn_minimizar.UseVisualStyleBackColor = true;
+            this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click_1);
             // 
             // Btn_iconoKardex
             // 
@@ -78,6 +81,16 @@
             this.Btn_iconoKardex.Size = new System.Drawing.Size(48, 48);
             this.Btn_iconoKardex.TabIndex = 12;
             this.Btn_iconoKardex.UseVisualStyleBackColor = true;
+            // 
+            // Lbl_kardex
+            // 
+            this.Lbl_kardex.AutoSize = true;
+            this.Lbl_kardex.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_kardex.Location = new System.Drawing.Point(74, 16);
+            this.Lbl_kardex.Name = "Lbl_kardex";
+            this.Lbl_kardex.Size = new System.Drawing.Size(113, 19);
+            this.Lbl_kardex.TabIndex = 11;
+            this.Lbl_kardex.Text = "4100-KARDEX";
             // 
             // dataGridView1
             // 
@@ -99,31 +112,30 @@
             // 
             this.idInventario.HeaderText = "ID INVENTARIO";
             this.idInventario.Name = "idInventario";
-            this.idInventario.Width = 126;
+            this.idInventario.Width = 103;
             // 
             // idProducto
             // 
             this.idProducto.HeaderText = "ID DEL PRODUCTO";
             this.idProducto.Name = "idProducto";
-            this.idProducto.Width = 150;
+            this.idProducto.Width = 120;
             // 
             // idSucursal
             // 
             this.idSucursal.HeaderText = "ID DE LA SUCURSAL";
             this.idSucursal.Name = "idSucursal";
-            this.idSucursal.Width = 157;
+            this.idSucursal.Width = 126;
             // 
             // idBodega
             // 
             this.idBodega.HeaderText = "ID DE BODEGA";
             this.idBodega.Name = "idBodega";
-            this.idBodega.Width = 125;
             // 
             // existencias
             // 
             this.existencias.HeaderText = "existencias";
             this.existencias.Name = "existencias";
-            this.existencias.Width = 106;
+            this.existencias.Width = 84;
             // 
             // Btn_salir
             // 
@@ -137,19 +149,6 @@
             this.Btn_salir.TabIndex = 2;
             this.Btn_salir.UseVisualStyleBackColor = false;
             this.Btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
-            // 
-            // Btn_minimizar
-            // 
-            this.Btn_minimizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_minimizar.BackgroundImage")));
-            this.Btn_minimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.Btn_minimizar.FlatAppearance.BorderSize = 0;
-            this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_minimizar.Location = new System.Drawing.Point(767, 0);
-            this.Btn_minimizar.Name = "Btn_minimizar";
-            this.Btn_minimizar.Size = new System.Drawing.Size(48, 48);
-            this.Btn_minimizar.TabIndex = 13;
-            this.Btn_minimizar.UseVisualStyleBackColor = true;
-            this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click_1);
             // 
             // Frm_kardex
             // 
