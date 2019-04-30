@@ -60,6 +60,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(915, 48);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // Btn_iconoCliente
             // 
@@ -69,7 +70,7 @@
             this.Btn_iconoCliente.FlatAppearance.BorderSize = 0;
             this.Btn_iconoCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_iconoCliente.Location = new System.Drawing.Point(15, 4);
-            this.Btn_iconoCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btn_iconoCliente.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_iconoCliente.Name = "Btn_iconoCliente";
             this.Btn_iconoCliente.Size = new System.Drawing.Size(36, 39);
             this.Btn_iconoCliente.TabIndex = 10;
@@ -81,9 +82,9 @@
             this.Lbl_admonClientes.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_admonClientes.Location = new System.Drawing.Point(74, 16);
             this.Lbl_admonClientes.Name = "Lbl_admonClientes";
-            this.Lbl_admonClientes.Size = new System.Drawing.Size(236, 19);
+            this.Lbl_admonClientes.Size = new System.Drawing.Size(279, 19);
             this.Lbl_admonClientes.TabIndex = 1;
-            this.Lbl_admonClientes.Text = "ADMINISTRACIÓN DE CLIENTES";
+            this.Lbl_admonClientes.Text = "1300-ADMINISTRACIÓN DE CLIENTES";
             // 
             // Btn_cerrar
             // 
@@ -192,11 +193,11 @@
             this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.navegador1.DataGr = null;
             this.navegador1.Location = new System.Drawing.Point(27, 76);
-            this.navegador1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.navegador1.Margin = new System.Windows.Forms.Padding(4);
             this.navegador1.Name = "navegador1";
             this.navegador1.Procedimiento = null;
-            this.navegador1.pubNombrechm = "Devoluciones.chm";
-            this.navegador1.pubNombreHtml = "COMPRAS.html";
+            this.navegador1.pubNombrechm = "CLIENTESS.chm";
+            this.navegador1.pubNombreHtml = "CLIENTES.html";
             this.navegador1.Size = new System.Drawing.Size(857, 60);
             this.navegador1.TabIndex = 2;
             // 

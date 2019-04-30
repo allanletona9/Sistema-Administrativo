@@ -17,6 +17,7 @@ namespace SAE_2019.Clientes
         public frm_mostrarclientes()
         {
             InitializeComponent();
+          nv.numeroApp(8);
         }
 
         private void frm_mostrarclientes_Load(object sender, EventArgs e)
@@ -31,6 +32,21 @@ namespace SAE_2019.Clientes
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Btn_cerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Btn_minimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

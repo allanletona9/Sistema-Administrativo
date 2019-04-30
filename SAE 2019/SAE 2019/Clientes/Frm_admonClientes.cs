@@ -8,8 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaDiseno;
-using security;
 using InicioSesion;
+
+
 namespace SAE_2019.Clientes
 {
     public partial class Frm_admonClientes : Form
@@ -39,22 +40,19 @@ namespace SAE_2019.Clientes
 
         private void Frm_admonClientes_Load(object sender, EventArgs e)
         {
-
             nv2.ingresarTabla("tbl_clientes");
-
-
-
-
-
-            //campos necesarios para la bitacora en el navegador
 
             Usuario u = new Usuario();
             string codigoUsuario = Convert.ToString(u.obtenerCodigoUsuario());
             string nombreUsuario = Convert.ToString(u.obtenerUsuario());
-            string numeroAplicacion = "1000";
-            nv2.obtenerCamposBitacora(codigoUsuario,nombreUsuario,numeroAplicacion);
+            string numeroAplicacion = "1300";
+            nv2.obtenerCamposBitacora(codigoUsuario, nombreUsuario, numeroAplicacion);
 
 
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
