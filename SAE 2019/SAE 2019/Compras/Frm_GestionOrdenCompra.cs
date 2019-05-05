@@ -108,7 +108,7 @@ namespace SAE_2019.Compras
                     filas.Cells[3].Value = almacena.GetString(3);
 
                     Dgv_mostrarFacturas.Rows.Add(filas);
-
+        
 
                 }
                     

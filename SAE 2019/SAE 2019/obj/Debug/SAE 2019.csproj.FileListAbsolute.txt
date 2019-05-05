@@ -921,3 +921,115 @@ C:\Users\allan\Desktop\version final\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj
 C:\Users\allan\Desktop\version final\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
 C:\Users\allan\Desktop\version final\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb
 C:\Users\allan\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_GestionOrdenCompra.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe.config
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\SAE 2019.exe
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\SAE 2019.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\DLL- Reporteador.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\BIT.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\stdole.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\Logic.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\logica.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\FlashControlV71.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\Data.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\datos.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatos.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDiseno.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogica.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\ConsultasInteligentes.dll.config
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\InicioSesion.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\security.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\DLL- Reporteador.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\DLL- Reporteador.xml
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\BIT.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaInicioSesion.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosInicioSesion.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CambioDeHost.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoUsuarios.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\gestionPerfiles.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazIngresoModulos.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazMantenimientoAplicaciones.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaInterfazAsignacionDePerfiles.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\Logic.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaCambioDeHost.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\RetornoCadenaDeConexion.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoUsuarios.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoUsuarios.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\logica.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoModulos.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoModulos.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaMantenimientoAplicaciones.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosMantenimientoAplicaciones.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosAsignacionDePerfiles.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaLogicaAsignacionDePerfiles.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\Data.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\CapaDatosCambioDeHost.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\bin\Debug\datos.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csprojAssemblyReference.cache
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.Frm_admonClientes.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Clientes.frm_mostrarclientes.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_GestionOrdenCompra.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_OrdenCompra.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_pagosCompras.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_pedidoProductos.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_solicitud_devoluciones.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Compras.Frm_vista_devoluciones.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.frm_mdisae.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_admonProductos.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_almacenes.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_kardex.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Inventario.Frm_productos.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Mantenimiento.Frm_admonBodega.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Mantenimiento.Frm_admonEmpleados.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Mantenimiento.Frm_admonSucursales.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Mantenimiento.Frm_bodegas.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Mantenimiento.Frm_empleados.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Mantenimiento.Frm_sucursales.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Properties.Resources.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_admonProveedores.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Proveedores.Frm_mostrarProveedores.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.GenerateResource.cache
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CoreCompileInputs.cache
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.csproj.CopyComplete
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.exe
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE 2019.pdb
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Facturacion.Frm_consultaCliente.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Facturacion.Frm_consultaProducto.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Facturacion.Frm_facturacion.resources
+C:\Users\Edson Juarez\Desktop\SAE 2019\SAE 2019\obj\Debug\SAE_2019.Ventas.Frm_cuentas_cobrar.resources

@@ -15,6 +15,7 @@ using System.Windows.Forms;
 using ConsultasInteligentes;
 using security;
 using InicioSesion;
+using SAE_2019.Facturacion;
 
 namespace SAE_2019
 {
@@ -477,6 +478,30 @@ namespace SAE_2019
         private void pagoToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        bool ventanaFactura = false;
+        Frm_facturacion frmFactura = new Frm_facturacion();
+
+        private void facturasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_facturacion);
+            if (ventanaFactura == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    frmFactura = new Frm_facturacion();
+                }
+
+                frmFactura.MdiParent = this;
+                frmFactura.Show();
+                Application.DoEvents();
+                ventanaFactura = true;
+            }
+            else
+            {
+                frmFactura.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
         }
     }
 }

@@ -138,6 +138,30 @@
       <DependentUpon>empleados.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Ventas\Frm_consultaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\Frm_consultaCliente.Designer.cs">
+      <DependentUpon>Frm_consultaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Frm_consultaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\Frm_consultaProducto.Designer.cs">
+      <DependentUpon>Frm_consultaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Frm_cuentas_cobrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\Frm_cuentas_cobrar.Designer.cs">
+      <DependentUpon>Frm_cuentas_cobrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Frm_facturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\Frm_facturacion.Designer.cs">
+      <DependentUpon>Frm_facturacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_mdisae.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -272,6 +296,18 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>empleados.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Frm_consultaCliente.resx">
+      <DependentUpon>Frm_consultaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Frm_consultaProducto.resx">
+      <DependentUpon>Frm_consultaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Frm_cuentas_cobrar.resx">
+      <DependentUpon>Frm_cuentas_cobrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Frm_facturacion.resx">
+      <DependentUpon>Frm_facturacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_mdisae.resx">
       <DependentUpon>frm_mdisae.cs</DependentUpon>
     </EmbeddedResource>
@@ -352,5 +388,6 @@
   <ItemGroup>
     <None Include="Resources\boton-web-de-ayuda2.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
