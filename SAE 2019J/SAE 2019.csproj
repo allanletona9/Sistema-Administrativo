@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87A841DF-2544-423A-A45C-66EEA050DBB6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SAE_2019</RootNamespace>
+    <AssemblyName>SAE 2019</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CapaDatos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Navegador\CapaDatos\bin\Debug\CapaDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaDiseno, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Navegador, prueba, script - version 1.0.1.2 final este si\Navegador\CapaDiseno\bin\Debug\CapaDiseno.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaLogica, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Navegador\CapaDiseno\bin\Debug\CapaLogica.dll</HintPath>
+    </Reference>
+    <Reference Include="ConsultasInteligentes">
+      <HintPath>..\..\ConsultasInteligentes\ConsultasInteligentes\bin\Debug\ConsultasInteligentes.dll</HintPath>
+    </Reference>
+    <Reference Include="InicioSesion, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\security\security\bin\Debug\InicioSesion.dll</HintPath>
+    </Reference>
+    <Reference Include="security">
+      <HintPath>..\..\..\security\security\bin\Debug\security.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clientes\Frm_admonClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\Frm_admonClientes.Designer.cs">
+      <DependentUpon>Frm_admonClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\frm_mostrarclientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\frm_mostrarclientes.Designer.cs">
+      <DependentUpon>frm_mostrarclientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_facturasCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_facturasCompras.Designer.cs">
+      <DependentUpon>Frm_facturasCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_mostrarFacturasCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_mostrarFacturasCompras.Designer.cs">
+      <DependentUpon>Frm_mostrarFacturasCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_ordenCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_ordenCompra.Designer.cs">
+      <DependentUpon>Frm_ordenCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_pedidoProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_pedidoProductos.Designer.cs">
+      <DependentUpon>Frm_pedidoProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\solicitud_devoluciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\solicitud_devoluciones.Designer.cs">
+      <DependentUpon>solicitud_devoluciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conexion.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frm_mdisae.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_mdisae.Designer.cs">
+      <DependentUpon>frm_mdisae.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Frm_almacenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\Frm_almacenes.Designer.cs">
+      <DependentUpon>Frm_almacenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Frm_kardex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\Frm_kardex.Designer.cs">
+      <DependentUpon>Frm_kardex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Frm_mostrarProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\Frm_mostrarProductos.Designer.cs">
+      <DependentUpon>Frm_mostrarProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Frm_productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\Frm_productos.Designer.cs">
+      <DependentUpon>Frm_productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedores\Frm_admonProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores\Frm_admonProveedores.Designer.cs">
+      <DependentUpon>Frm_admonProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedores\Frm_mostrarProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores\Frm_mostrarProveedores.Designer.cs">
+      <DependentUpon>Frm_mostrarProveedores.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Clientes\Frm_admonClientes.resx">
+      <DependentUpon>Frm_admonClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\frm_mostrarclientes.resx">
+      <DependentUpon>frm_mostrarclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_facturasCompras.resx">
+      <DependentUpon>Frm_facturasCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_mostrarFacturasCompras.resx">
+      <DependentUpon>Frm_mostrarFacturasCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_ordenCompra.resx">
+      <DependentUpon>Frm_ordenCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_pedidoProductos.resx">
+      <DependentUpon>Frm_pedidoProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\solicitud_devoluciones.resx">
+      <DependentUpon>solicitud_devoluciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_mdisae.resx">
+      <DependentUpon>frm_mdisae.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Frm_almacenes.resx">
+      <DependentUpon>Frm_almacenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Frm_kardex.resx">
+      <DependentUpon>Frm_kardex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Frm_mostrarProductos.resx">
+      <DependentUpon>Frm_mostrarProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Frm_productos.resx">
+      <DependentUpon>Frm_productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Proveedores\Frm_admonProveedores.resx">
+      <DependentUpon>Frm_admonProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores\Frm_mostrarProveedores.resx">
+      <DependentUpon>Frm_mostrarProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
