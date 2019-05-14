@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87A841DF-2544-423A-A45C-66EEA050DBB6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SAE_2019</RootNamespace>
+    <AssemblyName>SAE 2019</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CapaDatos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Navegador\CapaDatos\bin\Debug\CapaDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaDiseno, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Navegador\CapaDiseno\bin\Debug\CapaDiseno.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaLogica, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Navegador\CapaDiseno\bin\Debug\CapaLogica.dll</HintPath>
+    </Reference>
+    <Reference Include="ConsultasInteligentes">
+      <HintPath>..\..\ConsultasInteligentes\ConsultasInteligentes\bin\Debug\ConsultasInteligentes.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="InicioSesion, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\security\security\bin\Debug\InicioSesion.dll</HintPath>
+    </Reference>
+    <Reference Include="security">
+      <HintPath>..\..\..\security\security\bin\Debug\security.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bodegas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bodegas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="clientes.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clientes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Clientes\Frm_admonClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\Frm_admonClientes.Designer.cs">
+      <DependentUpon>Frm_admonClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\frm_mostrarclientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\frm_mostrarclientes.Designer.cs">
+      <DependentUpon>frm_mostrarclientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_GestionOrdenCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_GestionOrdenCompra.Designer.cs">
+      <DependentUpon>Frm_GestionOrdenCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_ordenCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_ordenCompra.Designer.cs">
+      <DependentUpon>Frm_ordenCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_pagosCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_pagosCompras.Designer.cs">
+      <DependentUpon>Frm_pagosCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_pedidoProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_pedidoProductos.Designer.cs">
+      <DependentUpon>Frm_pedidoProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_solicitud_devoluciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_solicitud_devoluciones.Designer.cs">
+      <DependentUpon>Frm_solicitud_devoluciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Frm_vista_devoluciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\Frm_vista_devoluciones.Designer.cs">
+      <DependentUpon>Frm_vista_devoluciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conexion.cs" />
+    <Compile Include="empleados.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>empleados.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frm_mdisae.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_mdisae.Designer.cs">
+      <DependentUpon>frm_mdisae.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Frm_admonProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\Frm_admonProductos.Designer.cs">
+      <DependentUpon>Frm_admonProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Frm_almacenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\Frm_almacenes.Designer.cs">
+      <DependentUpon>Frm_almacenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Frm_kardex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\Frm_kardex.Designer.cs">
+      <DependentUpon>Frm_kardex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Frm_productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\Frm_productos.Designer.cs">
+      <DependentUpon>Frm_productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_admonBodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_admonBodega.Designer.cs">
+      <DependentUpon>Frm_admonBodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_admonEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_admonEmpleados.Designer.cs">
+      <DependentUpon>Frm_admonEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_admonSucursales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_admonSucursales.Designer.cs">
+      <DependentUpon>Frm_admonSucursales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_bodegas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_bodegas.Designer.cs">
+      <DependentUpon>Frm_bodegas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_empleados.Designer.cs">
+      <DependentUpon>Frm_empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_sucursales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_sucursales.Designer.cs">
+      <DependentUpon>Frm_sucursales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>productos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="proveedores.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proveedores.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proveedores\Frm_admonProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores\Frm_admonProveedores.Designer.cs">
+      <DependentUpon>Frm_admonProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedores\Frm_mostrarProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores\Frm_mostrarProveedores.Designer.cs">
+      <DependentUpon>Frm_mostrarProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sucursales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sucursales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="bodegas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>bodegas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clientes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>clientes.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\Frm_admonClientes.resx">
+      <DependentUpon>Frm_admonClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\frm_mostrarclientes.resx">
+      <DependentUpon>frm_mostrarclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_GestionOrdenCompra.resx">
+      <DependentUpon>Frm_GestionOrdenCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_ordenCompra.resx">
+      <DependentUpon>Frm_ordenCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_pagosCompras.resx">
+      <DependentUpon>Frm_pagosCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_pedidoProductos.resx">
+      <DependentUpon>Frm_pedidoProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_solicitud_devoluciones.resx">
+      <DependentUpon>Frm_solicitud_devoluciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\Frm_vista_devoluciones.resx">
+      <DependentUpon>Frm_vista_devoluciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="empleados.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>empleados.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_mdisae.resx">
+      <DependentUpon>frm_mdisae.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Frm_admonProductos.resx">
+      <DependentUpon>Frm_admonProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Frm_almacenes.resx">
+      <DependentUpon>Frm_almacenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Frm_kardex.resx">
+      <DependentUpon>Frm_kardex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Frm_productos.resx">
+      <DependentUpon>Frm_productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Frm_admonBodega.resx">
+      <DependentUpon>Frm_admonBodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Frm_admonEmpleados.resx">
+      <DependentUpon>Frm_admonEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Frm_admonSucursales.resx">
+      <DependentUpon>Frm_admonSucursales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Frm_bodegas.resx">
+      <DependentUpon>Frm_bodegas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Frm_empleados.resx">
+      <DependentUpon>Frm_empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Frm_sucursales.resx">
+      <DependentUpon>Frm_sucursales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>productos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="proveedores.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>proveedores.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores\Frm_admonProveedores.resx">
+      <DependentUpon>Frm_admonProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores\Frm_mostrarProveedores.resx">
+      <DependentUpon>Frm_mostrarProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sucursales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>sucursales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-web-de-ayuda2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
