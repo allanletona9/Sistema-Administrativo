@@ -38,12 +38,8 @@
             this.Txt_nodevolucion = new System.Windows.Forms.TextBox();
             this.Lbl_noOrden = new System.Windows.Forms.Label();
             this.cbx_emp = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.cbx_producto = new System.Windows.Forms.ComboBox();
             this.cantidad_dev = new System.Windows.Forms.NumericUpDown();
-            this.label4 = new System.Windows.Forms.Label();
             this.Txt_estado = new System.Windows.Forms.TextBox();
             this.dataGridView_dev = new System.Windows.Forms.DataGridView();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,11 +50,20 @@
             this.txtfechaR = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.text_prod = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.Btn_guardar = new System.Windows.Forms.Button();
             this.btn_agregar = new System.Windows.Forms.Button();
+            this.lbl_no_emp = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txt_nom_emp = new System.Windows.Forms.TextBox();
+            this.txt_sucursal = new System.Windows.Forms.TextBox();
+            this.lbl_emp = new System.Windows.Forms.Label();
+            this.lbl_sucursal = new System.Windows.Forms.Label();
+            this.lbl_sucur = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cantidad_dev)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_dev)).BeginInit();
@@ -75,8 +80,9 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(863, 48);
+            this.panel1.Size = new System.Drawing.Size(897, 48);
             this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // Btn_cerrar
             // 
@@ -127,13 +133,15 @@
             this.Lbl_facturas.Size = new System.Drawing.Size(169, 19);
             this.Lbl_facturas.TabIndex = 3;
             this.Lbl_facturas.Text = "5400-DEVOLUCIONES";
+            this.Lbl_facturas.Click += new System.EventHandler(this.Lbl_facturas_Click);
             // 
             // txt_descr
             // 
-            this.txt_descr.Location = new System.Drawing.Point(505, 148);
+            this.txt_descr.Location = new System.Drawing.Point(493, 266);
             this.txt_descr.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_descr.Multiline = true;
             this.txt_descr.Name = "txt_descr";
-            this.txt_descr.Size = new System.Drawing.Size(191, 20);
+            this.txt_descr.Size = new System.Drawing.Size(191, 63);
             this.txt_descr.TabIndex = 20;
             // 
             // Txt_nodevolucion
@@ -144,59 +152,28 @@
             this.Txt_nodevolucion.ReadOnly = true;
             this.Txt_nodevolucion.Size = new System.Drawing.Size(120, 20);
             this.Txt_nodevolucion.TabIndex = 35;
+            this.Txt_nodevolucion.TextChanged += new System.EventHandler(this.Txt_nodevolucion_TextChanged);
             // 
             // Lbl_noOrden
             // 
             this.Lbl_noOrden.AutoSize = true;
             this.Lbl_noOrden.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_noOrden.Location = new System.Drawing.Point(52, 106);
+            this.Lbl_noOrden.Location = new System.Drawing.Point(54, 107);
             this.Lbl_noOrden.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_noOrden.Name = "Lbl_noOrden";
             this.Lbl_noOrden.Size = new System.Drawing.Size(114, 19);
             this.Lbl_noOrden.TabIndex = 36;
             this.Lbl_noOrden.Text = "No. Devolucion";
+            this.Lbl_noOrden.Click += new System.EventHandler(this.Lbl_noOrden_Click);
             // 
             // cbx_emp
             // 
             this.cbx_emp.FormattingEnabled = true;
             this.cbx_emp.Location = new System.Drawing.Point(180, 148);
             this.cbx_emp.Name = "cbx_emp";
-            this.cbx_emp.Size = new System.Drawing.Size(191, 21);
+            this.cbx_emp.Size = new System.Drawing.Size(82, 21);
             this.cbx_emp.TabIndex = 37;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(85, 150);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 19);
-            this.label1.TabIndex = 38;
-            this.label1.Text = "Empleado";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(410, 149);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 19);
-            this.label2.TabIndex = 39;
-            this.label2.Text = "Descripcion";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(94, 205);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 19);
-            this.label3.TabIndex = 40;
-            this.label3.Text = "Producto";
+            this.cbx_emp.SelectedIndexChanged += new System.EventHandler(this.cbx_emp_SelectedIndexChanged);
             // 
             // cbx_producto
             // 
@@ -208,21 +185,10 @@
             // 
             // cantidad_dev
             // 
-            this.cantidad_dev.Location = new System.Drawing.Point(508, 286);
+            this.cantidad_dev.Location = new System.Drawing.Point(776, 283);
             this.cantidad_dev.Name = "cantidad_dev";
             this.cantidad_dev.Size = new System.Drawing.Size(110, 20);
             this.cantidad_dev.TabIndex = 42;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(422, 284);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 19);
-            this.label4.TabIndex = 43;
-            this.label4.Text = "Cantidad";
             // 
             // Txt_estado
             // 
@@ -249,6 +215,7 @@
             this.dataGridView_dev.RowHeadersVisible = false;
             this.dataGridView_dev.Size = new System.Drawing.Size(504, 150);
             this.dataGridView_dev.TabIndex = 46;
+            this.dataGridView_dev.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_dev_CellContentClick);
             // 
             // Column2
             // 
@@ -304,17 +271,6 @@
             this.text_prod.Size = new System.Drawing.Size(191, 20);
             this.text_prod.TabIndex = 49;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(102, 282);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 19);
-            this.label6.TabIndex = 50;
-            this.label6.Text = "Nombre";
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Gray;
@@ -340,7 +296,7 @@
             this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(426, 193);
+            this.button1.Location = new System.Drawing.Point(431, 193);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(168, 44);
@@ -358,7 +314,7 @@
             this.Btn_guardar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_guardar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_guardar.Image")));
             this.Btn_guardar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Btn_guardar.Location = new System.Drawing.Point(659, 285);
+            this.Btn_guardar.Location = new System.Drawing.Point(702, 384);
             this.Btn_guardar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_guardar.Name = "Btn_guardar";
             this.Btn_guardar.Size = new System.Drawing.Size(184, 44);
@@ -376,7 +332,7 @@
             this.btn_agregar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_agregar.Image = ((System.Drawing.Image)(resources.GetObject("btn_agregar.Image")));
             this.btn_agregar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_agregar.Location = new System.Drawing.Point(668, 223);
+            this.btn_agregar.Location = new System.Drawing.Point(715, 316);
             this.btn_agregar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_agregar.Name = "btn_agregar";
             this.btn_agregar.Size = new System.Drawing.Size(149, 44);
@@ -386,11 +342,120 @@
             this.btn_agregar.UseVisualStyleBackColor = false;
             this.btn_agregar.Click += new System.EventHandler(this.btn_agregar_Click);
             // 
+            // lbl_no_emp
+            // 
+            this.lbl_no_emp.AutoSize = true;
+            this.lbl_no_emp.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_no_emp.Location = new System.Drawing.Point(87, 149);
+            this.lbl_no_emp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_no_emp.Name = "lbl_no_emp";
+            this.lbl_no_emp.Size = new System.Drawing.Size(81, 19);
+            this.lbl_no_emp.TabIndex = 38;
+            this.lbl_no_emp.Text = "Empleado";
+            this.lbl_no_emp.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(400, 283);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(89, 19);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "Descripcion";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(96, 204);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(72, 19);
+            this.label3.TabIndex = 40;
+            this.label3.Text = "Producto";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(688, 281);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(77, 19);
+            this.label4.TabIndex = 43;
+            this.label4.Text = "Cantidad";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(104, 281);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(64, 19);
+            this.label6.TabIndex = 50;
+            this.label6.Text = "Nombre";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // txt_nom_emp
+            // 
+            this.txt_nom_emp.Location = new System.Drawing.Point(404, 150);
+            this.txt_nom_emp.Name = "txt_nom_emp";
+            this.txt_nom_emp.Size = new System.Drawing.Size(150, 20);
+            this.txt_nom_emp.TabIndex = 53;
+            // 
+            // txt_sucursal
+            // 
+            this.txt_sucursal.Location = new System.Drawing.Point(692, 150);
+            this.txt_sucursal.Name = "txt_sucursal";
+            this.txt_sucursal.Size = new System.Drawing.Size(170, 20);
+            this.txt_sucursal.TabIndex = 54;
+            // 
+            // lbl_emp
+            // 
+            this.lbl_emp.AutoSize = true;
+            this.lbl_emp.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_emp.Location = new System.Drawing.Point(319, 148);
+            this.lbl_emp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_emp.Name = "lbl_emp";
+            this.lbl_emp.Size = new System.Drawing.Size(64, 19);
+            this.lbl_emp.TabIndex = 55;
+            this.lbl_emp.Text = "Nombre";
+            // 
+            // lbl_sucursal
+            // 
+            this.lbl_sucursal.AutoSize = true;
+            this.lbl_sucursal.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_sucursal.Location = new System.Drawing.Point(620, 151);
+            this.lbl_sucursal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_sucursal.Name = "lbl_sucursal";
+            this.lbl_sucursal.Size = new System.Drawing.Size(65, 19);
+            this.lbl_sucursal.TabIndex = 56;
+            this.lbl_sucursal.Text = "Sucursal";
+            // 
+            // lbl_sucur
+            // 
+            this.lbl_sucur.AutoSize = true;
+            this.lbl_sucur.Location = new System.Drawing.Point(519, 285);
+            this.lbl_sucur.Name = "lbl_sucur";
+            this.lbl_sucur.Size = new System.Drawing.Size(35, 13);
+            this.lbl_sucur.TabIndex = 57;
+            this.lbl_sucur.Text = "label1";
+            // 
             // Frm_solicitud_devoluciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(863, 513);
+            this.ClientSize = new System.Drawing.Size(897, 513);
+            this.Controls.Add(this.lbl_sucursal);
+            this.Controls.Add(this.lbl_emp);
+            this.Controls.Add(this.txt_sucursal);
+            this.Controls.Add(this.txt_nom_emp);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
@@ -404,7 +469,7 @@
             this.Controls.Add(this.cbx_producto);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_no_emp);
             this.Controls.Add(this.cbx_emp);
             this.Controls.Add(this.Lbl_noOrden);
             this.Controls.Add(this.Txt_nodevolucion);
@@ -412,6 +477,7 @@
             this.Controls.Add(this.txt_descr);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Txt_estado);
+            this.Controls.Add(this.lbl_sucur);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_solicitud_devoluciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -438,12 +504,8 @@
         private System.Windows.Forms.TextBox Txt_nodevolucion;
         private System.Windows.Forms.Label Lbl_noOrden;
         private System.Windows.Forms.ComboBox cbx_emp;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cbx_producto;
         private System.Windows.Forms.NumericUpDown cantidad_dev;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button Btn_guardar;
         private System.Windows.Forms.TextBox Txt_estado;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
@@ -455,8 +517,17 @@
         private System.Windows.Forms.TextBox txtfechaR;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox text_prod;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label lbl_no_emp;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txt_nom_emp;
+        private System.Windows.Forms.TextBox txt_sucursal;
+        private System.Windows.Forms.Label lbl_emp;
+        private System.Windows.Forms.Label lbl_sucursal;
+        private System.Windows.Forms.Label lbl_sucur;
     }
 }

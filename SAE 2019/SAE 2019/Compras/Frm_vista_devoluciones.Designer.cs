@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_vista_devoluciones));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Btn_cerrar = new System.Windows.Forms.Button();
             this.Btn_minimizar = new System.Windows.Forms.Button();
@@ -51,7 +52,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(751, 48);
+            this.panel1.Size = new System.Drawing.Size(735, 48);
             this.panel1.TabIndex = 0;
             // 
             // Btn_cerrar
@@ -60,7 +61,7 @@
             this.Btn_cerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Btn_cerrar.FlatAppearance.BorderSize = 0;
             this.Btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_cerrar.Location = new System.Drawing.Point(690, 0);
+            this.Btn_cerrar.Location = new System.Drawing.Point(654, 0);
             this.Btn_cerrar.Name = "Btn_cerrar";
             this.Btn_cerrar.Size = new System.Drawing.Size(48, 48);
             this.Btn_cerrar.TabIndex = 15;
@@ -73,7 +74,7 @@
             this.Btn_minimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Btn_minimizar.FlatAppearance.BorderSize = 0;
             this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_minimizar.Location = new System.Drawing.Point(636, 0);
+            this.Btn_minimizar.Location = new System.Drawing.Point(600, 0);
             this.Btn_minimizar.Name = "Btn_minimizar";
             this.Btn_minimizar.Size = new System.Drawing.Size(48, 48);
             this.Btn_minimizar.TabIndex = 14;
@@ -102,7 +103,7 @@
             this.Lbl_devol.Name = "Lbl_devol";
             this.Lbl_devol.Size = new System.Drawing.Size(232, 19);
             this.Lbl_devol.TabIndex = 4;
-            this.Lbl_devol.Text = "5600-ESTADO DEVOLUCIONES";
+            this.Lbl_devol.Text = "5700-ESTADO DEVOLUCIONES";
             this.Lbl_devol.Click += new System.EventHandler(this.Lbl_ordenCompra_Click);
             // 
             // label1
@@ -119,17 +120,23 @@
             // 
             this.dataGridView_dev.AllowUserToAddRows = false;
             this.dataGridView_dev.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_dev.Location = new System.Drawing.Point(143, 127);
+            this.dataGridView_dev.Location = new System.Drawing.Point(116, 65);
             this.dataGridView_dev.Name = "dataGridView_dev";
+            this.dataGridView_dev.ReadOnly = true;
             this.dataGridView_dev.RowHeadersVisible = false;
-            this.dataGridView_dev.Size = new System.Drawing.Size(503, 234);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridView_dev.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView_dev.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView_dev.Size = new System.Drawing.Size(501, 253);
             this.dataGridView_dev.TabIndex = 47;
+            this.dataGridView_dev.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_dev_CellClick);
+            this.dataGridView_dev.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_dev_CellContentClick);
             // 
             // Frm_vista_devoluciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(751, 454);
+            this.ClientSize = new System.Drawing.Size(735, 344);
             this.Controls.Add(this.dataGridView_dev);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);

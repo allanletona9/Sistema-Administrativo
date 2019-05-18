@@ -70,7 +70,7 @@ namespace SAE_2019.Facturacion
                 nuevaCadena += letra.ToString();
             }
 
-            Txt_noSerie.Text = nuevaCadena;
+            Txt_noSerie.Text = "FISA2019";
             Txt_fecha.Text = fecha.ToString("yyyy/MM/dd");
         }
 
@@ -84,32 +84,38 @@ namespace SAE_2019.Facturacion
 
         private void Btn_colocar_Click(object sender, EventArgs e)
         {
-            if(Txt_codProd.Text != " " && Txt_descProd.Text != " " && Txt_precioProducto.Text != " " 
-                && Txt_costoProducto.Text != " " && Txt_cantidadProducto.Text != " ")
+            if(string.IsNullOrEmpty(Txt_codProd.Text) || string.IsNullOrEmpty(Txt_descProd.Text) || string.IsNullOrEmpty(Txt_precioProducto.Text)
+                || string.IsNullOrEmpty(Txt_costoProducto.Text) || string.IsNullOrEmpty(Txt_cantidadProducto.Text) )
+            {
+                MessageBox.Show("Algunos campos aun no han sido llenados");
+            } 
+            else
             {
                 bool productoExistente = false;
                 int posicionFila = 0;
 
                 //si no existe nada en el DGV
-                if(contadorFila == 0)
+                if (contadorFila == 0)
                 {
                     Dgv_factura.Rows.Add(Txt_codProd.Text, Txt_descProd.Text, Txt_precioProducto.Text, Txt_costoProducto.Text,
                         Txt_cantidadProducto.Text);
 
-                    double importe = Convert.ToDouble(Dgv_factura.Rows[contadorFila].Cells[2].Value) 
+                    double importe = Convert.ToDouble(Dgv_factura.Rows[contadorFila].Cells[2].Value)
                         * Convert.ToDouble(Dgv_factura.Rows[contadorFila].Cells[4].Value);
 
                     Dgv_factura.Rows[contadorFila].Cells[5].Value = importe;
 
                     contadorFila++;
+
+
                 }
                 else
                 {
                     //recorrera todas las filas del Dgv
-                    foreach(DataGridViewRow Fila in Dgv_factura.Rows)
+                    foreach (DataGridViewRow Fila in Dgv_factura.Rows)
                     {
                         //si existe un código idéntico a cualquier del DGV
-                        if(Fila.Cells[0].Value.ToString() == Txt_codProd.Text)
+                        if (Fila.Cells[0].Value.ToString() == Txt_codProd.Text)
                         {
                             productoExistente = true;
                             //posición del IdProducto identico
@@ -117,23 +123,21 @@ namespace SAE_2019.Facturacion
                         }
                     }
 
-                    if(productoExistente == true)
+                    if (productoExistente == true)
                     {
                         Dgv_factura.Rows[posicionFila].Cells[4].Value = (Convert.ToDouble(Txt_cantidadProducto.Text) +
                             Convert.ToDouble(Dgv_factura.Rows[posicionFila].Cells[4].Value)).ToString();
-                        
-                        double importe = (Convert.ToDouble(Dgv_factura.Rows[posicionFila].Cells[2].Value) -
-                        Convert.ToDouble(Dgv_factura.Rows[posicionFila].Cells[3].Value)) * Convert.ToDouble(Dgv_factura.Rows[posicionFila].Cells[4].Value);
+                      
+                        double importe = Convert.ToDouble(Dgv_factura.Rows[posicionFila].Cells[2].Value) * Convert.ToDouble(Dgv_factura.Rows[posicionFila].Cells[4].Value);
 
                         Dgv_factura.Rows[posicionFila].Cells[5].Value = importe;
-                    } 
+                    }
                     else
                     {
                         Dgv_factura.Rows.Add(Txt_codProd.Text, Txt_descProd.Text, Txt_precioProducto.Text, Txt_costoProducto.Text,
                          Txt_cantidadProducto.Text);
 
-                        double importe = (Convert.ToDouble(Dgv_factura.Rows[contadorFila].Cells[2].Value) -
-                            Convert.ToDouble(Dgv_factura.Rows[contadorFila].Cells[3].Value)) * Convert.ToDouble(Dgv_factura.Rows[contadorFila].Cells[4].Value);
+                        double importe = Convert.ToDouble(Dgv_factura.Rows[contadorFila].Cells[2].Value)  * Convert.ToDouble(Dgv_factura.Rows[contadorFila].Cells[4].Value);
 
                         Dgv_factura.Rows[contadorFila].Cells[5].Value = importe;
 
@@ -165,6 +169,10 @@ namespace SAE_2019.Facturacion
                 Dgv_factura.Rows.RemoveAt(Dgv_factura.CurrentRow.Index);
                 contadorFila--;
             }
+            else
+            {
+                MessageBox.Show("No hay productos para eliminar");
+            }
         }
 
         private void Btn_consultaCliente_Click(object sender, EventArgs e)
@@ -191,8 +199,10 @@ namespace SAE_2019.Facturacion
             {
                 Txt_codProd.Text = consultaProducto.Dgv_consultaProducto.Rows[consultaProducto.Dgv_consultaProducto.CurrentRow.Index].Cells[0].Value.ToString();
                 Txt_descProd.Text = consultaProducto.Dgv_consultaProducto.Rows[consultaProducto.Dgv_consultaProducto.CurrentRow.Index].Cells[2].Value.ToString();
+                Txt_precioProducto.Text = consultaProducto.Dgv_consultaProducto.Rows[consultaProducto.Dgv_consultaProducto.CurrentRow.Index].Cells[4].Value.ToString();
+                Txt_costoProducto.Text = consultaProducto.Dgv_consultaProducto.Rows[consultaProducto.Dgv_consultaProducto.CurrentRow.Index].Cells[5].Value.ToString();
 
-                Txt_precioProducto.Focus();
+                Txt_cantidadProducto.Focus();
             }
         }
 
@@ -215,7 +225,21 @@ namespace SAE_2019.Facturacion
         private void Btn_nuevaFactura_Click(object sender, EventArgs e)
         {
             Nuevo();
-            Txt_codCliente.Focus(); 
+            Txt_codCliente.Focus();
+
+            Random obj = new Random();
+            string posiblesCaracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789";
+            int longitud = posiblesCaracteres.Length;
+            char letra;
+            int longitudNuevaCadena = 10;
+            string nuevaCadena = "";
+            for (int i = 0; i < longitudNuevaCadena; i++)
+            {
+                letra = posiblesCaracteres[obj.Next(longitud)];
+                nuevaCadena += letra.ToString();
+            }
+
+            Txt_noSerie.Text = nuevaCadena;
         }
 
         private void Txt_codCliente_TextChanged(object sender, EventArgs e)
@@ -224,8 +248,6 @@ namespace SAE_2019.Facturacion
         }
 
         private void Habilitar() { 
-            Txt_precioProducto.Enabled = true;
-            Txt_costoProducto.Enabled = true;
             Txt_cantidadProducto.Enabled = true;
 
             Btn_colocar.Enabled = true;
@@ -258,12 +280,16 @@ namespace SAE_2019.Facturacion
             string codigoUsuario = Convert.ToString(usuario.obtenerCodigoUsuario());
             string estado = "1";
             string numeroFac = "";
+            string codLinea = " ";
 
             if (contadorFila != 0)
             {
                 try
                 {
-                    string consulta = "INSERT INTO tbl_factura_encabezado(`PK_serie`,`FK_Usu_Codigo`,`FK_IdCliente`,`fecha_venta`,`total`,`estado`,`Identificador`) VALUES ('" + Txt_noSerie.Text + "' , '" + codigoUsuario + "' , '" + Txt_codCliente.Text + "' , '"+fecha.ToString("yyyy/MM/dd")+"' , "+Lbl_total.Text+" , "+estado+" , '"+identificador+"');";
+                    
+                    Usuario user = new Usuario();
+                    string codUsuario = Convert.ToString(user.obtenerCodigoUsuario());
+                    string consulta = "INSERT INTO tbl_factura_encabezado(`PK_serie`,`FK_Usu_Codigo`,`FK_IdCliente`,`fecha_venta`,`total`,`estado`,`Identificador`) VALUES ('" + Txt_noSerie.Text + "' , '" + codigoUsuario + "' , " + Txt_codCliente.Text + " , '"+fecha.ToString("yyyy/MM/dd")+"' , "+Lbl_total.Text+" , "+estado+" , '"+identificador+"');";
                     OdbcCommand comm = new OdbcCommand(consulta, conexion.conectar());
                     comm.ExecuteNonQuery();
 
@@ -280,7 +306,22 @@ namespace SAE_2019.Facturacion
                         consulta = "INSERT INTO tbl_factura_detalle(`PK_IdFacturaEncabezado`,`PK_IdProducto`,`precio`,`costo`,`cantidad`) VALUES('"+numeroFac+"' , '"+Fila.Cells[0].Value.ToString()+"' , '"+Fila.Cells[2].Value.ToString()+"' , '"+Fila.Cells[3].Value.ToString()+"' , '"+Fila.Cells[4].Value.ToString()+"')";
                         comm = new OdbcCommand(consulta, conexion.conectar());
                         comm.ExecuteNonQuery();
+
+                        comm = new OdbcCommand("SELECT MAX(PK_linea_detalle) FROM tbl_factura_detalle;", conexion.conectar());
+                        OdbcDataReader mostrarLinea = comm.ExecuteReader();
+
+                        while(mostrarLinea.Read())
+                        {
+                            codLinea = mostrarLinea.GetString(0);
+                        }
+
+                        consulta = "UPDATE tbl_inventario I INNER JOIN tbl_factura_detalle D ON I.PK_IdProducto = D.PK_IdProducto INNER JOIN tbl_empleados E ON I.PK_IdSucursal = E.Fk_IdSucursal INNER JOIN tbl_usuario U ON E.PK_IdEmpleado = U.FK_IdEmpleado SET I.existencia = I.existencia - D.cantidad WHERE D.PK_linea_detalle = "+codLinea+" AND D.PK_IdProducto = '" + Fila.Cells[0].Value.ToString() + "' AND U.PK_Usu_Codigo =  " + codUsuario; 
+                        OdbcCommand comm2 = new OdbcCommand(consulta, conexion.conectar());
+                        comm2.ExecuteNonQuery();
+
                     }
+
+
                 }
                 catch(Exception err)
                 {
@@ -289,6 +330,15 @@ namespace SAE_2019.Facturacion
 
                 Nuevo();
             }
+            else
+            {
+                MessageBox.Show("No se ha ingresado ningun producto");
+            }
+        }
+
+        private void Btn_ayuda_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "C:\\Ayuda\\" + "facturacion1.chm", "facturacion.html");
         }
     }
 }

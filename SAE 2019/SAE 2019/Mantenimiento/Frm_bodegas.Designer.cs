@@ -48,10 +48,11 @@
             // 
             // Txt_IdBodega
             // 
-            this.Txt_IdBodega.Location = new System.Drawing.Point(456, 249);
+            this.Txt_IdBodega.Location = new System.Drawing.Point(608, 306);
+            this.Txt_IdBodega.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_IdBodega.Multiline = true;
             this.Txt_IdBodega.Name = "Txt_IdBodega";
-            this.Txt_IdBodega.Size = new System.Drawing.Size(195, 31);
+            this.Txt_IdBodega.Size = new System.Drawing.Size(259, 37);
             this.Txt_IdBodega.TabIndex = 32;
             this.Txt_IdBodega.Tag = "1";
             // 
@@ -59,27 +60,30 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(270, 264);
+            this.label2.Location = new System.Drawing.Point(360, 325);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 16);
+            this.label2.Size = new System.Drawing.Size(122, 19);
             this.label2.TabIndex = 31;
             this.label2.Text = "Id de Bodega";
             // 
             // Txt_estadoBodega
             // 
-            this.Txt_estadoBodega.Location = new System.Drawing.Point(456, 413);
+            this.Txt_estadoBodega.Location = new System.Drawing.Point(608, 508);
+            this.Txt_estadoBodega.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_estadoBodega.Multiline = true;
             this.Txt_estadoBodega.Name = "Txt_estadoBodega";
-            this.Txt_estadoBodega.Size = new System.Drawing.Size(195, 31);
+            this.Txt_estadoBodega.Size = new System.Drawing.Size(259, 37);
             this.Txt_estadoBodega.TabIndex = 30;
             this.Txt_estadoBodega.Tag = "4";
             // 
             // Txt_ubicacionBodega
             // 
-            this.Txt_ubicacionBodega.Location = new System.Drawing.Point(456, 357);
+            this.Txt_ubicacionBodega.Location = new System.Drawing.Point(608, 439);
+            this.Txt_ubicacionBodega.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_ubicacionBodega.Multiline = true;
             this.Txt_ubicacionBodega.Name = "Txt_ubicacionBodega";
-            this.Txt_ubicacionBodega.Size = new System.Drawing.Size(195, 31);
+            this.Txt_ubicacionBodega.Size = new System.Drawing.Size(259, 37);
             this.Txt_ubicacionBodega.TabIndex = 29;
             this.Txt_ubicacionBodega.Tag = "3";
             // 
@@ -87,18 +91,20 @@
             // 
             this.Lbl_nombreClt.AutoSize = true;
             this.Lbl_nombreClt.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_nombreClt.Location = new System.Drawing.Point(231, 319);
+            this.Lbl_nombreClt.Location = new System.Drawing.Point(308, 393);
+            this.Lbl_nombreClt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_nombreClt.Name = "Lbl_nombreClt";
-            this.Lbl_nombreClt.Size = new System.Drawing.Size(136, 16);
+            this.Lbl_nombreClt.Size = new System.Drawing.Size(173, 19);
             this.Lbl_nombreClt.TabIndex = 25;
             this.Lbl_nombreClt.Text = "Nombre de Bodega";
             // 
             // Txt_nombreBodega
             // 
-            this.Txt_nombreBodega.Location = new System.Drawing.Point(456, 304);
+            this.Txt_nombreBodega.Location = new System.Drawing.Point(608, 374);
+            this.Txt_nombreBodega.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_nombreBodega.Multiline = true;
             this.Txt_nombreBodega.Name = "Txt_nombreBodega";
-            this.Txt_nombreBodega.Size = new System.Drawing.Size(195, 31);
+            this.Txt_nombreBodega.Size = new System.Drawing.Size(259, 37);
             this.Txt_nombreBodega.TabIndex = 28;
             this.Txt_nombreBodega.Tag = "2";
             // 
@@ -106,9 +112,10 @@
             // 
             this.Lbl_nitClt.AutoSize = true;
             this.Lbl_nitClt.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_nitClt.Location = new System.Drawing.Point(217, 372);
+            this.Lbl_nitClt.Location = new System.Drawing.Point(289, 458);
+            this.Lbl_nitClt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_nitClt.Name = "Lbl_nitClt";
-            this.Lbl_nitClt.Size = new System.Drawing.Size(150, 16);
+            this.Lbl_nitClt.Size = new System.Drawing.Size(189, 19);
             this.Lbl_nitClt.TabIndex = 26;
             this.Lbl_nitClt.Text = "Ubicación de Bodega";
             // 
@@ -116,9 +123,10 @@
             // 
             this.Lbl_dpiClt.AutoSize = true;
             this.Lbl_dpiClt.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_dpiClt.Location = new System.Drawing.Point(238, 428);
+            this.Lbl_dpiClt.Location = new System.Drawing.Point(317, 527);
+            this.Lbl_dpiClt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_dpiClt.Name = "Lbl_dpiClt";
-            this.Lbl_dpiClt.Size = new System.Drawing.Size(127, 16);
+            this.Lbl_dpiClt.Size = new System.Drawing.Size(160, 19);
             this.Lbl_dpiClt.TabIndex = 27;
             this.Lbl_dpiClt.Text = "Estado de Bodega";
             // 
@@ -126,26 +134,27 @@
             // 
             this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.navegador1.DataGr = null;
-            this.navegador1.Location = new System.Drawing.Point(35, 139);
-            this.navegador1.Margin = new System.Windows.Forms.Padding(4);
+            this.navegador1.Location = new System.Drawing.Point(47, 171);
+            this.navegador1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.navegador1.Name = "navegador1";
             this.navegador1.Procedimiento = null;
             this.navegador1.pubNombrechm = null;
             this.navegador1.pubNombreHtml = null;
-            this.navegador1.Size = new System.Drawing.Size(857, 60);
+            this.navegador1.Size = new System.Drawing.Size(1143, 74);
             this.navegador1.TabIndex = 33;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(111)))), ((int)(((byte)(43)))));
             this.panel1.Controls.Add(this.Btn_iconoCliente);
             this.panel1.Controls.Add(this.Lbl_admonClientes);
             this.panel1.Controls.Add(this.Btn_cerrar);
             this.panel1.Controls.Add(this.Btn_minimizar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(915, 48);
+            this.panel1.Size = new System.Drawing.Size(1220, 59);
             this.panel1.TabIndex = 34;
             // 
             // Btn_iconoCliente
@@ -155,10 +164,10 @@
             this.Btn_iconoCliente.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(88)))), ((int)(((byte)(74)))));
             this.Btn_iconoCliente.FlatAppearance.BorderSize = 0;
             this.Btn_iconoCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_iconoCliente.Location = new System.Drawing.Point(15, 4);
-            this.Btn_iconoCliente.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_iconoCliente.Location = new System.Drawing.Point(20, 5);
+            this.Btn_iconoCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_iconoCliente.Name = "Btn_iconoCliente";
-            this.Btn_iconoCliente.Size = new System.Drawing.Size(36, 39);
+            this.Btn_iconoCliente.Size = new System.Drawing.Size(48, 48);
             this.Btn_iconoCliente.TabIndex = 10;
             this.Btn_iconoCliente.UseVisualStyleBackColor = true;
             // 
@@ -166,9 +175,10 @@
             // 
             this.Lbl_admonClientes.AutoSize = true;
             this.Lbl_admonClientes.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_admonClientes.Location = new System.Drawing.Point(74, 16);
+            this.Lbl_admonClientes.Location = new System.Drawing.Point(99, 20);
+            this.Lbl_admonClientes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_admonClientes.Name = "Lbl_admonClientes";
-            this.Lbl_admonClientes.Size = new System.Drawing.Size(287, 19);
+            this.Lbl_admonClientes.Size = new System.Drawing.Size(366, 23);
             this.Lbl_admonClientes.TabIndex = 1;
             this.Lbl_admonClientes.Text = "1500-ADMINISTRACIÓN DE BODEGAS";
             // 
@@ -178,9 +188,10 @@
             this.Btn_cerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Btn_cerrar.FlatAppearance.BorderSize = 0;
             this.Btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_cerrar.Location = new System.Drawing.Point(836, 0);
+            this.Btn_cerrar.Location = new System.Drawing.Point(1115, 0);
+            this.Btn_cerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_cerrar.Name = "Btn_cerrar";
-            this.Btn_cerrar.Size = new System.Drawing.Size(48, 48);
+            this.Btn_cerrar.Size = new System.Drawing.Size(64, 59);
             this.Btn_cerrar.TabIndex = 1;
             this.Btn_cerrar.UseVisualStyleBackColor = true;
             this.Btn_cerrar.Click += new System.EventHandler(this.Btn_cerrar_Click);
@@ -191,18 +202,19 @@
             this.Btn_minimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Btn_minimizar.FlatAppearance.BorderSize = 0;
             this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_minimizar.Location = new System.Drawing.Point(767, 0);
+            this.Btn_minimizar.Location = new System.Drawing.Point(1023, 0);
+            this.Btn_minimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_minimizar.Name = "Btn_minimizar";
-            this.Btn_minimizar.Size = new System.Drawing.Size(48, 48);
+            this.Btn_minimizar.Size = new System.Drawing.Size(64, 59);
             this.Btn_minimizar.TabIndex = 2;
             this.Btn_minimizar.UseVisualStyleBackColor = true;
             this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
             // 
             // Frm_bodegas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(915, 653);
+            this.ClientSize = new System.Drawing.Size(1220, 804);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.navegador1);
             this.Controls.Add(this.Txt_IdBodega);
@@ -214,6 +226,7 @@
             this.Controls.Add(this.Lbl_nitClt);
             this.Controls.Add(this.Lbl_dpiClt);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_bodegas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_bodegas";

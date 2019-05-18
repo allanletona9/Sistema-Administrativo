@@ -44,7 +44,7 @@ namespace SAE_2019.Compras
                         "C.PK_IdComprasEncabezado, C.fecha_compra, C.fecha_modificacion, C.Tracking_compra, P.nombre_proveedor " +
                         "FROM tbl_compras C INNER JOIN tbl_orden_compra_encabezado OCE " +
                         "ON C.PK_IdComprasEncabezado = OCE.PK_IdComprasEncabezado " +
-                        "INNER JOIN tbl_proveedores P ON OCE.PK_IdProveedores = P.PK_IdProveedores  " +
+                        "INNER JOIN tbl_proveedores P ON OCE.FK_IdProveedores = P.PK_IdProveedores  " +
                         "WHERE C.estado_compra= '1' AND C.PK_IdComprasEncabezado = " + scodigoOrden + " ", conexion.conectar());
                     OdbcDataReader almacena = sql.ExecuteReader();
                     while (almacena.Read() == true)
@@ -94,7 +94,7 @@ namespace SAE_2019.Compras
                         "C.PK_IdComprasEncabezado, C.fecha_compra, C.fecha_modificacion, C.Tracking_compra, P.nombre_proveedor " +
                         "FROM tbl_compras C INNER JOIN tbl_orden_compra_encabezado OCE " +
                         "ON C.PK_IdComprasEncabezado = OCE.PK_IdComprasEncabezado " +
-                        "INNER JOIN tbl_proveedores P ON OCE.PK_IdProveedores = P.PK_IdProveedores  " +
+                        "INNER JOIN tbl_proveedores P ON OCE.FK_IdProveedores = P.PK_IdProveedores  " +
                         "WHERE C.estado_compra= '1' ", conexion.conectar());
                     OdbcDataReader almacena = sql.ExecuteReader();
                     while (almacena.Read() == true)
@@ -108,7 +108,7 @@ namespace SAE_2019.Compras
                     filas.Cells[3].Value = almacena.GetString(3);
 
                     Dgv_mostrarFacturas.Rows.Add(filas);
-        
+
 
                 }
                     

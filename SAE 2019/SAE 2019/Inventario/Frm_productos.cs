@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaDiseno;
 using InicioSesion;
+using System.Data.Odbc;
 
 namespace SAE_2019.Inventario
 {
@@ -33,20 +34,92 @@ namespace SAE_2019.Inventario
             this.WindowState = FormWindowState.Minimized;
         }
 
+        void llenarComboBox()
+        {
+            try
+            {
+                OdbcCommand sql = new OdbcCommand("Select cantidad from tbl_comisiones", conexion.conectar());
+                OdbcDataReader almacena = sql.ExecuteReader();
+                while (almacena.Read() == true)
+                {
+                    cbo_comision.Items.Add(almacena.GetValue(0));
+                }
+                almacena.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
+           
+
+        }
+
+       
         private void Frm_productos_Load(object sender, EventArgs e)
         {
-            nv2.ingresarTabla("tbl_productos");
+            if(cbo_comision.Enabled == true)
+            {
+                llenarComboBox();
 
-                Usuario u = new Usuario();
+            }
+
+            nv2.ingresarTabla("tbl_productos");
+    
+
+            Usuario u = new Usuario();
             string codigoUsuario = Convert.ToString(u.obtenerCodigoUsuario());
             string nombreUsuario = Convert.ToString(u.obtenerUsuario());
             string numeroAplicacion = "1200";
             nv2.obtenerCamposBitacora(codigoUsuario, nombreUsuario, numeroAplicacion);
+
+
+           
         }
 
         private void navegador1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Txt_Comision_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbo_comision_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string scodigoComision = "";
+            bool validacionComision = false;
+
+            if (cbo_comision.SelectedItem != null)
+            {
+                string sComision = cbo_comision.SelectedItem.ToString();
+
+                //consulta el codigo del proveedor obteniendo el texto del combobox con el nombre del proveedor
+                try
+                {
+
+                    OdbcCommand sql = new OdbcCommand("Select PK_IdComision from tbl_comisiones where cantidad = '" + sComision + "'", conexion.conectar());
+                    OdbcDataReader almacena = sql.ExecuteReader();
+                    while (almacena.Read() == true)
+                    {
+                        scodigoComision = almacena.GetString(0);
+                    }
+                    Txt_Comision.Text = scodigoComision;
+                    almacena.Close();
+                    conexion.cerrarConexion();
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+            }
+            else
+            {
+                validacionComision = true;
+            }
         }
     }
 }

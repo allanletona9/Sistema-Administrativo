@@ -52,7 +52,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(161)))), ((int)(((byte)(22)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(111)))), ((int)(((byte)(43)))));
             this.panel1.Controls.Add(this.Btn_cerrar);
             this.panel1.Controls.Add(this.Btn_minimizar);
             this.panel1.Controls.Add(this.Btn_iconoProveedor);
@@ -107,7 +107,7 @@
             this.Lbl_proveedores.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_proveedores.Location = new System.Drawing.Point(99, 20);
             this.Lbl_proveedores.Name = "Lbl_proveedores";
-            this.Lbl_proveedores.Size = new System.Drawing.Size(159, 19);
+            this.Lbl_proveedores.Size = new System.Drawing.Size(199, 23);
             this.Lbl_proveedores.TabIndex = 11;
             this.Lbl_proveedores.Text = "1100-PROVEEDORES";
             // 
@@ -126,7 +126,7 @@
             this.Lbl_idProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_idProveedor.Location = new System.Drawing.Point(261, 300);
             this.Lbl_idProveedor.Name = "Lbl_idProveedor";
-            this.Lbl_idProveedor.Size = new System.Drawing.Size(125, 17);
+            this.Lbl_idProveedor.Size = new System.Drawing.Size(153, 19);
             this.Lbl_idProveedor.TabIndex = 19;
             this.Lbl_idProveedor.Text = "ID del proveedor:";
             // 
@@ -156,7 +156,7 @@
             this.Lbl_nombreProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_nombreProveedor.Location = new System.Drawing.Point(261, 377);
             this.Lbl_nombreProveedor.Name = "Lbl_nombreProveedor";
-            this.Lbl_nombreProveedor.Size = new System.Drawing.Size(158, 17);
+            this.Lbl_nombreProveedor.Size = new System.Drawing.Size(191, 19);
             this.Lbl_nombreProveedor.TabIndex = 11;
             this.Lbl_nombreProveedor.Text = "Nombre del producto:";
             // 
@@ -166,7 +166,7 @@
             this.Lbl_paisProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_paisProveedor.Location = new System.Drawing.Point(265, 591);
             this.Lbl_paisProveedor.Name = "Lbl_paisProveedor";
-            this.Lbl_paisProveedor.Size = new System.Drawing.Size(136, 17);
+            this.Lbl_paisProveedor.Size = new System.Drawing.Size(168, 19);
             this.Lbl_paisProveedor.TabIndex = 17;
             this.Lbl_paisProveedor.Text = "País del Proveedor:";
             // 
@@ -176,7 +176,7 @@
             this.Lbl_dirProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_dirProveedor.Location = new System.Drawing.Point(261, 524);
             this.Lbl_dirProveedor.Name = "Lbl_dirProveedor";
-            this.Lbl_dirProveedor.Size = new System.Drawing.Size(177, 17);
+            this.Lbl_dirProveedor.Size = new System.Drawing.Size(215, 19);
             this.Lbl_dirProveedor.TabIndex = 15;
             this.Lbl_dirProveedor.Text = "Dirección del proveedor:";
             // 
@@ -196,7 +196,7 @@
             this.Lbl_nitProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_nitProveedor.Location = new System.Drawing.Point(261, 450);
             this.Lbl_nitProveedor.Name = "Lbl_nitProveedor";
-            this.Lbl_nitProveedor.Size = new System.Drawing.Size(131, 17);
+            this.Lbl_nitProveedor.Size = new System.Drawing.Size(161, 19);
             this.Lbl_nitProveedor.TabIndex = 13;
             this.Lbl_nitProveedor.Text = "NIT del proveedor:";
             // 
@@ -216,7 +216,7 @@
             this.Lbl_estadoProveedor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_estadoProveedor.Location = new System.Drawing.Point(265, 665);
             this.Lbl_estadoProveedor.Name = "Lbl_estadoProveedor";
-            this.Lbl_estadoProveedor.Size = new System.Drawing.Size(154, 17);
+            this.Lbl_estadoProveedor.Size = new System.Drawing.Size(189, 19);
             this.Lbl_estadoProveedor.TabIndex = 21;
             this.Lbl_estadoProveedor.Text = "Estado del Proveedor:";
             // 
@@ -234,7 +234,7 @@
             this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.navegador1.DataGr = null;
             this.navegador1.Location = new System.Drawing.Point(173, 150);
-            this.navegador1.Margin = new System.Windows.Forms.Padding(4);
+            this.navegador1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.navegador1.Name = "navegador1";
             this.navegador1.Procedimiento = null;
             this.navegador1.pubNombrechm = "PROVEEDORESS.chm";

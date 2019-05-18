@@ -47,12 +47,15 @@
             this.navegador1 = new CapaDiseno.Navegador();
             this.Lbl_Existencias = new System.Windows.Forms.Label();
             this.Txt_existencias = new System.Windows.Forms.TextBox();
+            this.Lbl_comision = new System.Windows.Forms.Label();
+            this.Txt_Comision = new System.Windows.Forms.TextBox();
+            this.cbo_comision = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(111)))), ((int)(((byte)(43)))));
             this.panel1.Controls.Add(this.Btn_iconoProducto);
             this.panel1.Controls.Add(this.Lbl_productos);
             this.panel1.Controls.Add(this.Btn_minimizar);
@@ -81,7 +84,7 @@
             this.Lbl_productos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_productos.Location = new System.Drawing.Point(99, 20);
             this.Lbl_productos.Name = "Lbl_productos";
-            this.Lbl_productos.Size = new System.Drawing.Size(144, 19);
+            this.Lbl_productos.Size = new System.Drawing.Size(180, 23);
             this.Lbl_productos.TabIndex = 10;
             this.Lbl_productos.Text = "1200-PRODUCTOS";
             // 
@@ -115,96 +118,96 @@
             // 
             this.Lbl_nombreProducto.AutoSize = true;
             this.Lbl_nombreProducto.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_nombreProducto.Location = new System.Drawing.Point(261, 377);
+            this.Lbl_nombreProducto.Location = new System.Drawing.Point(261, 417);
             this.Lbl_nombreProducto.Name = "Lbl_nombreProducto";
-            this.Lbl_nombreProducto.Size = new System.Drawing.Size(158, 17);
+            this.Lbl_nombreProducto.Size = new System.Drawing.Size(191, 19);
             this.Lbl_nombreProducto.TabIndex = 1;
             this.Lbl_nombreProducto.Text = "Nombre del producto:";
             // 
             // Txt_nombreProducto
             // 
             this.Txt_nombreProducto.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_nombreProducto.Location = new System.Drawing.Point(595, 364);
+            this.Txt_nombreProducto.Location = new System.Drawing.Point(595, 404);
             this.Txt_nombreProducto.Multiline = true;
             this.Txt_nombreProducto.Name = "Txt_nombreProducto";
             this.Txt_nombreProducto.Size = new System.Drawing.Size(259, 37);
             this.Txt_nombreProducto.TabIndex = 2;
-            this.Txt_nombreProducto.Tag = "2";
+            this.Txt_nombreProducto.Tag = "3";
             // 
             // Lbl_descProducto
             // 
             this.Lbl_descProducto.AutoSize = true;
             this.Lbl_descProducto.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_descProducto.Location = new System.Drawing.Point(261, 450);
+            this.Lbl_descProducto.Location = new System.Drawing.Point(261, 490);
             this.Lbl_descProducto.Name = "Lbl_descProducto";
-            this.Lbl_descProducto.Size = new System.Drawing.Size(183, 17);
+            this.Lbl_descProducto.Size = new System.Drawing.Size(221, 19);
             this.Lbl_descProducto.TabIndex = 3;
             this.Lbl_descProducto.Text = "Descripción del Producto:";
             // 
             // Txt_descProducto
             // 
             this.Txt_descProducto.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_descProducto.Location = new System.Drawing.Point(595, 438);
+            this.Txt_descProducto.Location = new System.Drawing.Point(595, 478);
             this.Txt_descProducto.Multiline = true;
             this.Txt_descProducto.Name = "Txt_descProducto";
             this.Txt_descProducto.Size = new System.Drawing.Size(259, 37);
             this.Txt_descProducto.TabIndex = 4;
-            this.Txt_descProducto.Tag = "3";
+            this.Txt_descProducto.Tag = "4";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(261, 524);
+            this.label1.Location = new System.Drawing.Point(261, 564);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 17);
+            this.label1.Size = new System.Drawing.Size(66, 19);
             this.label1.TabIndex = 5;
             this.label1.Text = "Precio:";
             // 
             // Txt_precioProducto
             // 
             this.Txt_precioProducto.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_precioProducto.Location = new System.Drawing.Point(595, 512);
+            this.Txt_precioProducto.Location = new System.Drawing.Point(595, 552);
             this.Txt_precioProducto.Multiline = true;
             this.Txt_precioProducto.Name = "Txt_precioProducto";
             this.Txt_precioProducto.Size = new System.Drawing.Size(259, 37);
             this.Txt_precioProducto.TabIndex = 6;
-            this.Txt_precioProducto.Tag = "4";
+            this.Txt_precioProducto.Tag = "5";
             // 
             // Lbl_estadoProducto
             // 
             this.Lbl_estadoProducto.AutoSize = true;
             this.Lbl_estadoProducto.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_estadoProducto.Location = new System.Drawing.Point(261, 649);
+            this.Lbl_estadoProducto.Location = new System.Drawing.Point(261, 689);
             this.Lbl_estadoProducto.Name = "Lbl_estadoProducto";
-            this.Lbl_estadoProducto.Size = new System.Drawing.Size(56, 17);
+            this.Lbl_estadoProducto.Size = new System.Drawing.Size(68, 19);
             this.Lbl_estadoProducto.TabIndex = 7;
             this.Lbl_estadoProducto.Text = "Estado:";
             // 
             // Txt_estadoProducto
             // 
             this.Txt_estadoProducto.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_estadoProducto.Location = new System.Drawing.Point(595, 646);
+            this.Txt_estadoProducto.Location = new System.Drawing.Point(595, 686);
             this.Txt_estadoProducto.Multiline = true;
             this.Txt_estadoProducto.Name = "Txt_estadoProducto";
             this.Txt_estadoProducto.Size = new System.Drawing.Size(259, 37);
             this.Txt_estadoProducto.TabIndex = 8;
-            this.Txt_estadoProducto.Tag = "6";
+            this.Txt_estadoProducto.Tag = "7";
             // 
             // Lbl_idProducto
             // 
             this.Lbl_idProducto.AutoSize = true;
             this.Lbl_idProducto.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_idProducto.Location = new System.Drawing.Point(261, 300);
+            this.Lbl_idProducto.Location = new System.Drawing.Point(261, 267);
             this.Lbl_idProducto.Name = "Lbl_idProducto";
-            this.Lbl_idProducto.Size = new System.Drawing.Size(115, 17);
+            this.Lbl_idProducto.Size = new System.Drawing.Size(139, 19);
             this.Lbl_idProducto.TabIndex = 9;
             this.Lbl_idProducto.Text = "Id del Producto:";
             // 
             // Txt_idProducto
             // 
             this.Txt_idProducto.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_idProducto.Location = new System.Drawing.Point(595, 288);
+            this.Txt_idProducto.Location = new System.Drawing.Point(595, 255);
             this.Txt_idProducto.Multiline = true;
             this.Txt_idProducto.Name = "Txt_idProducto";
             this.Txt_idProducto.Size = new System.Drawing.Size(259, 37);
@@ -217,11 +220,11 @@
             this.navegador1.DataGr = null;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navegador1.Location = new System.Drawing.Point(170, 135);
-            this.navegador1.Margin = new System.Windows.Forms.Padding(4);
+            this.navegador1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.navegador1.Name = "navegador1";
             this.navegador1.Procedimiento = null;
-            this.navegador1.pubNombrechm = "PRODUCTOS.chm";
-            this.navegador1.pubNombreHtml = "MANTENIMIENTO%20PRODUCTOS.html";
+            this.navegador1.pubNombrechm = "SUCURSALESS.chm";
+            this.navegador1.pubNombreHtml = "SUCURSALES.html";
             this.navegador1.Size = new System.Drawing.Size(857, 65);
             this.navegador1.TabIndex = 11;
             this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
@@ -230,27 +233,60 @@
             // 
             this.Lbl_Existencias.AutoSize = true;
             this.Lbl_Existencias.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Existencias.Location = new System.Drawing.Point(261, 586);
+            this.Lbl_Existencias.Location = new System.Drawing.Point(261, 626);
             this.Lbl_Existencias.Name = "Lbl_Existencias";
-            this.Lbl_Existencias.Size = new System.Drawing.Size(86, 17);
+            this.Lbl_Existencias.Size = new System.Drawing.Size(61, 19);
             this.Lbl_Existencias.TabIndex = 12;
-            this.Lbl_Existencias.Text = "Existencias:";
+            this.Lbl_Existencias.Text = "Costo:";
             // 
             // Txt_existencias
             // 
             this.Txt_existencias.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_existencias.Location = new System.Drawing.Point(595, 583);
+            this.Txt_existencias.Location = new System.Drawing.Point(595, 623);
             this.Txt_existencias.Multiline = true;
             this.Txt_existencias.Name = "Txt_existencias";
             this.Txt_existencias.Size = new System.Drawing.Size(259, 37);
             this.Txt_existencias.TabIndex = 13;
-            this.Txt_existencias.Tag = "5";
+            this.Txt_existencias.Tag = "6";
+            // 
+            // Lbl_comision
+            // 
+            this.Lbl_comision.AutoSize = true;
+            this.Lbl_comision.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_comision.Location = new System.Drawing.Point(261, 339);
+            this.Lbl_comision.Name = "Lbl_comision";
+            this.Lbl_comision.Size = new System.Drawing.Size(91, 19);
+            this.Lbl_comision.TabIndex = 14;
+            this.Lbl_comision.Text = "Comision:";
+            // 
+            // Txt_Comision
+            // 
+            this.Txt_Comision.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_Comision.Location = new System.Drawing.Point(595, 319);
+            this.Txt_Comision.Multiline = true;
+            this.Txt_Comision.Name = "Txt_Comision";
+            this.Txt_Comision.Size = new System.Drawing.Size(259, 37);
+            this.Txt_Comision.TabIndex = 15;
+            this.Txt_Comision.Tag = "2";
+            this.Txt_Comision.TextChanged += new System.EventHandler(this.Txt_Comision_TextChanged);
+            // 
+            // cbo_comision
+            // 
+            this.cbo_comision.FormattingEnabled = true;
+            this.cbo_comision.Location = new System.Drawing.Point(870, 322);
+            this.cbo_comision.Name = "cbo_comision";
+            this.cbo_comision.Size = new System.Drawing.Size(259, 24);
+            this.cbo_comision.TabIndex = 16;
+            this.cbo_comision.SelectedIndexChanged += new System.EventHandler(this.cbo_comision_SelectedIndexChanged);
             // 
             // Frm_productos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1170, 749);
+            this.Controls.Add(this.cbo_comision);
+            this.Controls.Add(this.Txt_Comision);
+            this.Controls.Add(this.Lbl_comision);
             this.Controls.Add(this.Txt_existencias);
             this.Controls.Add(this.Lbl_Existencias);
             this.Controls.Add(this.navegador1);
@@ -298,5 +334,8 @@
         private CapaDiseno.Navegador navegador1;
         private System.Windows.Forms.Label Lbl_Existencias;
         private System.Windows.Forms.TextBox Txt_existencias;
+        private System.Windows.Forms.Label Lbl_comision;
+        private System.Windows.Forms.TextBox Txt_Comision;
+        private System.Windows.Forms.ComboBox cbo_comision;
     }
 }

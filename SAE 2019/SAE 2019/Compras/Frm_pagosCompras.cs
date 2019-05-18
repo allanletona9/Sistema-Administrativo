@@ -139,8 +139,6 @@ namespace SAE_2019.Compras
 
                     scodigoOrdenCompra = Txt_OrdenCompra.Text;
 
-                    
-
                     cmd = new OdbcCommand("SELECT (OCE.total - SUM(CP.abono)) AS Deuda, OCE.total " +
                     "FROM tbl_cuentas_pagar CP INNER JOIN tbl_compras C ON CP.PK_IdComprasEncabezado = C.PK_IdComprasEncabezado " +
                     "INNER JOIN tbl_orden_compra_encabezado OCE ON C.PK_IdComprasEncabezado = OCE.PK_IdComprasEncabezado " +
@@ -194,7 +192,7 @@ namespace SAE_2019.Compras
             {
                 string snombreTipoPago = cbo_tipo_pago.SelectedItem.ToString();
 
-                //consulta el codigo del proveedor obteniendo el texto del combobox con el nombre del proveedor
+                //consulta el codigo del tipo de pago obteniendo el texto del combobox con el nombre del tipo de pago
                 try
                 {
 
@@ -322,6 +320,11 @@ namespace SAE_2019.Compras
         private void button2_Click(object sender, EventArgs e)
         {
             Help.ShowHelp(this, "C:\\Ayuda\\" + "PAGAR.chm", "CUENTAS.html");
+        }
+
+        private void Dvg_compras_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

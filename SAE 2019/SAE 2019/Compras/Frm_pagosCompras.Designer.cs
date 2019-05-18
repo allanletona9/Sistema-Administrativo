@@ -80,6 +80,7 @@
             this.Dvg_compras.Name = "Dvg_compras";
             this.Dvg_compras.Size = new System.Drawing.Size(531, 256);
             this.Dvg_compras.TabIndex = 1;
+            this.Dvg_compras.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dvg_compras_CellContentClick);
             // 
             // panel1
             // 

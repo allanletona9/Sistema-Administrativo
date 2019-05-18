@@ -35,16 +35,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.Txt_buscarProducto = new System.Windows.Forms.TextBox();
             this.Dgv_consultaProducto = new System.Windows.Forms.DataGridView();
+            this.Btn_buscar = new System.Windows.Forms.Button();
+            this.Btn_seleccionar = new System.Windows.Forms.Button();
+            this.Btn_actualizar = new System.Windows.Forms.Button();
             this.idProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idComision = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.precioProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.existenciaProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.costoProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.estadoProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Btn_buscar = new System.Windows.Forms.Button();
-            this.Btn_seleccionar = new System.Windows.Forms.Button();
-            this.Btn_actualizar = new System.Windows.Forms.Button();
+            this.existenciaProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_consultaProducto)).BeginInit();
             this.SuspendLayout();
@@ -116,49 +117,15 @@
             this.nombreProducto,
             this.descProducto,
             this.precioProducto,
-            this.existenciaProducto,
-            this.estadoProducto});
+            this.costoProducto,
+            this.estadoProducto,
+            this.existenciaProducto});
             this.Dgv_consultaProducto.Location = new System.Drawing.Point(41, 140);
             this.Dgv_consultaProducto.Name = "Dgv_consultaProducto";
             this.Dgv_consultaProducto.RowTemplate.Height = 24;
             this.Dgv_consultaProducto.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.Dgv_consultaProducto.Size = new System.Drawing.Size(880, 364);
             this.Dgv_consultaProducto.TabIndex = 4;
-            // 
-            // idProducto
-            // 
-            this.idProducto.HeaderText = "ID producto";
-            this.idProducto.Name = "idProducto";
-            // 
-            // idComision
-            // 
-            this.idComision.HeaderText = "ID comision";
-            this.idComision.Name = "idComision";
-            // 
-            // nombreProducto
-            // 
-            this.nombreProducto.HeaderText = "Nombre producto";
-            this.nombreProducto.Name = "nombreProducto";
-            // 
-            // descProducto
-            // 
-            this.descProducto.HeaderText = "Descripción producto";
-            this.descProducto.Name = "descProducto";
-            // 
-            // precioProducto
-            // 
-            this.precioProducto.HeaderText = "Precio producto";
-            this.precioProducto.Name = "precioProducto";
-            // 
-            // existenciaProducto
-            // 
-            this.existenciaProducto.HeaderText = "Existencias";
-            this.existenciaProducto.Name = "existenciaProducto";
-            // 
-            // estadoProducto
-            // 
-            this.estadoProducto.HeaderText = "Estado";
-            this.estadoProducto.Name = "estadoProducto";
             // 
             // Btn_buscar
             // 
@@ -194,6 +161,46 @@
             this.Btn_actualizar.UseVisualStyleBackColor = true;
             this.Btn_actualizar.Click += new System.EventHandler(this.Btn_actualizar_Click);
             // 
+            // idProducto
+            // 
+            this.idProducto.HeaderText = "ID producto";
+            this.idProducto.Name = "idProducto";
+            // 
+            // idComision
+            // 
+            this.idComision.HeaderText = "ID comision";
+            this.idComision.Name = "idComision";
+            // 
+            // nombreProducto
+            // 
+            this.nombreProducto.HeaderText = "Nombre producto";
+            this.nombreProducto.Name = "nombreProducto";
+            // 
+            // descProducto
+            // 
+            this.descProducto.HeaderText = "Descripción producto";
+            this.descProducto.Name = "descProducto";
+            // 
+            // precioProducto
+            // 
+            this.precioProducto.HeaderText = "Precio producto";
+            this.precioProducto.Name = "precioProducto";
+            // 
+            // costoProducto
+            // 
+            this.costoProducto.HeaderText = "Costo Producto";
+            this.costoProducto.Name = "costoProducto";
+            // 
+            // estadoProducto
+            // 
+            this.estadoProducto.HeaderText = "Estado";
+            this.estadoProducto.Name = "estadoProducto";
+            // 
+            // existenciaProducto
+            // 
+            this.existenciaProducto.HeaderText = "Existencias";
+            this.existenciaProducto.Name = "existenciaProducto";
+            // 
             // Frm_consultaProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -228,14 +235,15 @@
         private System.Windows.Forms.TextBox Txt_buscarProducto;
         private System.Windows.Forms.Button Btn_buscar;
         private System.Windows.Forms.Button Btn_seleccionar;
+        private System.Windows.Forms.Button Btn_actualizar;
+        public System.Windows.Forms.DataGridView Dgv_consultaProducto;
         private System.Windows.Forms.DataGridViewTextBoxColumn idProducto;
         private System.Windows.Forms.DataGridViewTextBoxColumn idComision;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreProducto;
         private System.Windows.Forms.DataGridViewTextBoxColumn descProducto;
         private System.Windows.Forms.DataGridViewTextBoxColumn precioProducto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn existenciaProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn costoProducto;
         private System.Windows.Forms.DataGridViewTextBoxColumn estadoProducto;
-        private System.Windows.Forms.Button Btn_actualizar;
-        public System.Windows.Forms.DataGridView Dgv_consultaProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn existenciaProducto;
     }
 }

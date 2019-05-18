@@ -41,24 +41,25 @@
             // Dgv_mostrarProveedores
             // 
             this.Dgv_mostrarProveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Dgv_mostrarProveedores.Location = new System.Drawing.Point(68, 102);
-            this.Dgv_mostrarProveedores.Margin = new System.Windows.Forms.Padding(2);
+            this.Dgv_mostrarProveedores.Location = new System.Drawing.Point(91, 126);
+            this.Dgv_mostrarProveedores.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Dgv_mostrarProveedores.Name = "Dgv_mostrarProveedores";
             this.Dgv_mostrarProveedores.RowTemplate.Height = 24;
-            this.Dgv_mostrarProveedores.Size = new System.Drawing.Size(678, 329);
+            this.Dgv_mostrarProveedores.Size = new System.Drawing.Size(904, 405);
             this.Dgv_mostrarProveedores.TabIndex = 0;
             this.Dgv_mostrarProveedores.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_mostrarProveedores_CellDoubleClick);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(161)))), ((int)(((byte)(22)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(111)))), ((int)(((byte)(43)))));
             this.panel1.Controls.Add(this.Btn_minimizar);
             this.panel1.Controls.Add(this.Btn_cerrar);
             this.panel1.Controls.Add(this.Lbl_proveedores);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(816, 49);
+            this.panel1.Size = new System.Drawing.Size(1088, 60);
             this.panel1.TabIndex = 1;
             // 
             // Btn_minimizar
@@ -67,9 +68,10 @@
             this.Btn_minimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Btn_minimizar.FlatAppearance.BorderSize = 0;
             this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_minimizar.Location = new System.Drawing.Point(665, 0);
+            this.Btn_minimizar.Location = new System.Drawing.Point(887, 0);
+            this.Btn_minimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_minimizar.Name = "Btn_minimizar";
-            this.Btn_minimizar.Size = new System.Drawing.Size(48, 48);
+            this.Btn_minimizar.Size = new System.Drawing.Size(64, 59);
             this.Btn_minimizar.TabIndex = 16;
             this.Btn_minimizar.UseVisualStyleBackColor = true;
             this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
@@ -80,9 +82,10 @@
             this.Btn_cerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Btn_cerrar.FlatAppearance.BorderSize = 0;
             this.Btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_cerrar.Location = new System.Drawing.Point(734, 0);
+            this.Btn_cerrar.Location = new System.Drawing.Point(979, 0);
+            this.Btn_cerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_cerrar.Name = "Btn_cerrar";
-            this.Btn_cerrar.Size = new System.Drawing.Size(48, 48);
+            this.Btn_cerrar.Size = new System.Drawing.Size(64, 59);
             this.Btn_cerrar.TabIndex = 15;
             this.Btn_cerrar.UseVisualStyleBackColor = true;
             this.Btn_cerrar.Click += new System.EventHandler(this.Btn_cerrar_Click);
@@ -91,21 +94,22 @@
             // 
             this.Lbl_proveedores.AutoSize = true;
             this.Lbl_proveedores.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_proveedores.Location = new System.Drawing.Point(24, 20);
+            this.Lbl_proveedores.Location = new System.Drawing.Point(32, 25);
+            this.Lbl_proveedores.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_proveedores.Name = "Lbl_proveedores";
-            this.Lbl_proveedores.Size = new System.Drawing.Size(159, 19);
+            this.Lbl_proveedores.Size = new System.Drawing.Size(199, 23);
             this.Lbl_proveedores.TabIndex = 12;
             this.Lbl_proveedores.Text = "1100-PROVEEDORES";
             // 
             // Frm_mostrarProveedores
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(816, 489);
+            this.ClientSize = new System.Drawing.Size(1088, 602);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Dgv_mostrarProveedores);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Frm_mostrarProveedores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_mostrarProveedores";

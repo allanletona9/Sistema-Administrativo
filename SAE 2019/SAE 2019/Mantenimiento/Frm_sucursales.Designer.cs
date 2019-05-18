@@ -46,15 +46,16 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(111)))), ((int)(((byte)(43)))));
             this.panel1.Controls.Add(this.Btn_iconoCliente);
             this.panel1.Controls.Add(this.Lbl_admonClientes);
             this.panel1.Controls.Add(this.Btn_cerrar);
             this.panel1.Controls.Add(this.Btn_minimizar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(915, 48);
+            this.panel1.Size = new System.Drawing.Size(1220, 59);
             this.panel1.TabIndex = 2;
             // 
             // Btn_iconoCliente
@@ -64,10 +65,10 @@
             this.Btn_iconoCliente.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(88)))), ((int)(((byte)(74)))));
             this.Btn_iconoCliente.FlatAppearance.BorderSize = 0;
             this.Btn_iconoCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_iconoCliente.Location = new System.Drawing.Point(15, 4);
-            this.Btn_iconoCliente.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_iconoCliente.Location = new System.Drawing.Point(20, 5);
+            this.Btn_iconoCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_iconoCliente.Name = "Btn_iconoCliente";
-            this.Btn_iconoCliente.Size = new System.Drawing.Size(36, 39);
+            this.Btn_iconoCliente.Size = new System.Drawing.Size(48, 48);
             this.Btn_iconoCliente.TabIndex = 10;
             this.Btn_iconoCliente.UseVisualStyleBackColor = true;
             // 
@@ -75,9 +76,10 @@
             // 
             this.Lbl_admonClientes.AutoSize = true;
             this.Lbl_admonClientes.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_admonClientes.Location = new System.Drawing.Point(74, 16);
+            this.Lbl_admonClientes.Location = new System.Drawing.Point(99, 20);
+            this.Lbl_admonClientes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_admonClientes.Name = "Lbl_admonClientes";
-            this.Lbl_admonClientes.Size = new System.Drawing.Size(305, 19);
+            this.Lbl_admonClientes.Size = new System.Drawing.Size(389, 23);
             this.Lbl_admonClientes.TabIndex = 1;
             this.Lbl_admonClientes.Text = "1600-ADMINISTRACIÓN DE SUCURSALES";
             // 
@@ -87,9 +89,10 @@
             this.Btn_cerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Btn_cerrar.FlatAppearance.BorderSize = 0;
             this.Btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_cerrar.Location = new System.Drawing.Point(836, 0);
+            this.Btn_cerrar.Location = new System.Drawing.Point(1115, 0);
+            this.Btn_cerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_cerrar.Name = "Btn_cerrar";
-            this.Btn_cerrar.Size = new System.Drawing.Size(48, 48);
+            this.Btn_cerrar.Size = new System.Drawing.Size(64, 59);
             this.Btn_cerrar.TabIndex = 1;
             this.Btn_cerrar.UseVisualStyleBackColor = true;
             this.Btn_cerrar.Click += new System.EventHandler(this.Btn_cerrar_Click);
@@ -100,18 +103,20 @@
             this.Btn_minimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Btn_minimizar.FlatAppearance.BorderSize = 0;
             this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_minimizar.Location = new System.Drawing.Point(767, 0);
+            this.Btn_minimizar.Location = new System.Drawing.Point(1023, 0);
+            this.Btn_minimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_minimizar.Name = "Btn_minimizar";
-            this.Btn_minimizar.Size = new System.Drawing.Size(48, 48);
+            this.Btn_minimizar.Size = new System.Drawing.Size(64, 59);
             this.Btn_minimizar.TabIndex = 2;
             this.Btn_minimizar.UseVisualStyleBackColor = true;
             // 
             // Txt_IdSucursal
             // 
-            this.Txt_IdSucursal.Location = new System.Drawing.Point(454, 221);
+            this.Txt_IdSucursal.Location = new System.Drawing.Point(605, 272);
+            this.Txt_IdSucursal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_IdSucursal.Multiline = true;
             this.Txt_IdSucursal.Name = "Txt_IdSucursal";
-            this.Txt_IdSucursal.Size = new System.Drawing.Size(195, 31);
+            this.Txt_IdSucursal.Size = new System.Drawing.Size(259, 37);
             this.Txt_IdSucursal.TabIndex = 30;
             this.Txt_IdSucursal.Tag = "1";
             // 
@@ -119,18 +124,20 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(291, 236);
+            this.label2.Location = new System.Drawing.Point(388, 290);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 16);
+            this.label2.Size = new System.Drawing.Size(98, 19);
             this.label2.TabIndex = 29;
             this.label2.Text = "Id Sucursal";
             // 
             // Txt_ubicacionSucursal
             // 
-            this.Txt_ubicacionSucursal.Location = new System.Drawing.Point(454, 346);
+            this.Txt_ubicacionSucursal.Location = new System.Drawing.Point(605, 426);
+            this.Txt_ubicacionSucursal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_ubicacionSucursal.Multiline = true;
             this.Txt_ubicacionSucursal.Name = "Txt_ubicacionSucursal";
-            this.Txt_ubicacionSucursal.Size = new System.Drawing.Size(195, 31);
+            this.Txt_ubicacionSucursal.Size = new System.Drawing.Size(259, 37);
             this.Txt_ubicacionSucursal.TabIndex = 28;
             this.Txt_ubicacionSucursal.Tag = "3";
             // 
@@ -138,18 +145,20 @@
             // 
             this.Lbl_nombreClt.AutoSize = true;
             this.Lbl_nombreClt.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_nombreClt.Location = new System.Drawing.Point(234, 298);
+            this.Lbl_nombreClt.Location = new System.Drawing.Point(312, 367);
+            this.Lbl_nombreClt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_nombreClt.Name = "Lbl_nombreClt";
-            this.Lbl_nombreClt.Size = new System.Drawing.Size(144, 16);
+            this.Lbl_nombreClt.Size = new System.Drawing.Size(180, 19);
             this.Lbl_nombreClt.TabIndex = 25;
             this.Lbl_nombreClt.Text = "Nombre del Sucursal";
             // 
             // Txt_nombreSucursal
             // 
-            this.Txt_nombreSucursal.Location = new System.Drawing.Point(454, 283);
+            this.Txt_nombreSucursal.Location = new System.Drawing.Point(605, 348);
+            this.Txt_nombreSucursal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_nombreSucursal.Multiline = true;
             this.Txt_nombreSucursal.Name = "Txt_nombreSucursal";
-            this.Txt_nombreSucursal.Size = new System.Drawing.Size(195, 31);
+            this.Txt_nombreSucursal.Size = new System.Drawing.Size(259, 37);
             this.Txt_nombreSucursal.TabIndex = 27;
             this.Txt_nombreSucursal.Tag = "2";
             // 
@@ -157,9 +166,10 @@
             // 
             this.Lbl_nitClt.AutoSize = true;
             this.Lbl_nitClt.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_nitClt.Location = new System.Drawing.Point(224, 361);
+            this.Lbl_nitClt.Location = new System.Drawing.Point(299, 444);
+            this.Lbl_nitClt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_nitClt.Name = "Lbl_nitClt";
-            this.Lbl_nitClt.Size = new System.Drawing.Size(154, 16);
+            this.Lbl_nitClt.Size = new System.Drawing.Size(192, 19);
             this.Lbl_nitClt.TabIndex = 26;
             this.Lbl_nitClt.Text = "Ubicación de Sucursal";
             // 
@@ -167,20 +177,20 @@
             // 
             this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.navegador1.DataGr = null;
-            this.navegador1.Location = new System.Drawing.Point(27, 88);
-            this.navegador1.Margin = new System.Windows.Forms.Padding(4);
+            this.navegador1.Location = new System.Drawing.Point(36, 108);
+            this.navegador1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.navegador1.Name = "navegador1";
             this.navegador1.Procedimiento = null;
             this.navegador1.pubNombrechm = "SUCURSALESS.chm";
             this.navegador1.pubNombreHtml = "SUCURSALES.html";
-            this.navegador1.Size = new System.Drawing.Size(857, 60);
+            this.navegador1.Size = new System.Drawing.Size(1143, 74);
             this.navegador1.TabIndex = 31;
             // 
             // Frm_sucursales
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(915, 653);
+            this.ClientSize = new System.Drawing.Size(1220, 804);
             this.Controls.Add(this.navegador1);
             this.Controls.Add(this.Txt_IdSucursal);
             this.Controls.Add(this.label2);
@@ -190,6 +200,7 @@
             this.Controls.Add(this.Lbl_nitClt);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_sucursales";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_surcursales";

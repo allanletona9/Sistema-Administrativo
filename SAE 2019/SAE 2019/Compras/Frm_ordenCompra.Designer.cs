@@ -148,7 +148,7 @@
             // 
             this.Lbl_ordenCompra.AutoSize = true;
             this.Lbl_ordenCompra.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_ordenCompra.Location = new System.Drawing.Point(396, 21);
+            this.Lbl_ordenCompra.Location = new System.Drawing.Point(201, 20);
             this.Lbl_ordenCompra.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_ordenCompra.Name = "Lbl_ordenCompra";
             this.Lbl_ordenCompra.Size = new System.Drawing.Size(135, 19);
@@ -159,7 +159,7 @@
             // 
             this.Lbl_noOrden.AutoSize = true;
             this.Lbl_noOrden.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_noOrden.Location = new System.Drawing.Point(375, 52);
+            this.Lbl_noOrden.Location = new System.Drawing.Point(180, 51);
             this.Lbl_noOrden.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_noOrden.Name = "Lbl_noOrden";
             this.Lbl_noOrden.Size = new System.Drawing.Size(32, 19);
@@ -168,7 +168,7 @@
             // 
             // Txt_noOrdenCompra
             // 
-            this.Txt_noOrdenCompra.Location = new System.Drawing.Point(411, 51);
+            this.Txt_noOrdenCompra.Location = new System.Drawing.Point(216, 50);
             this.Txt_noOrdenCompra.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_noOrdenCompra.Name = "Txt_noOrdenCompra";
             this.Txt_noOrdenCompra.ReadOnly = true;
@@ -208,11 +208,11 @@
             this.descripcion,
             this.Column2,
             this.cantidad});
-            this.dgv_ordenCompra.Location = new System.Drawing.Point(189, 465);
+            this.dgv_ordenCompra.Location = new System.Drawing.Point(85, 411);
             this.dgv_ordenCompra.Margin = new System.Windows.Forms.Padding(2);
             this.dgv_ordenCompra.Name = "dgv_ordenCompra";
             this.dgv_ordenCompra.RowTemplate.Height = 24;
-            this.dgv_ordenCompra.Size = new System.Drawing.Size(549, 171);
+            this.dgv_ordenCompra.Size = new System.Drawing.Size(549, 225);
             this.dgv_ordenCompra.TabIndex = 5;
             this.dgv_ordenCompra.TabStop = false;
             this.dgv_ordenCompra.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ordenCompra_CellClick);
@@ -259,7 +259,7 @@
             this.Btn_ingresarProducto.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_ingresarProducto.Image = ((System.Drawing.Image)(resources.GetObject("Btn_ingresarProducto.Image")));
             this.Btn_ingresarProducto.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Btn_ingresarProducto.Location = new System.Drawing.Point(198, 95);
+            this.Btn_ingresarProducto.Location = new System.Drawing.Point(640, 507);
             this.Btn_ingresarProducto.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_ingresarProducto.Name = "Btn_ingresarProducto";
             this.Btn_ingresarProducto.Size = new System.Drawing.Size(168, 44);
@@ -268,6 +268,7 @@
             this.Btn_ingresarProducto.Text = "Ingresar Producto       ";
             this.Btn_ingresarProducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_ingresarProducto.UseVisualStyleBackColor = false;
+            this.Btn_ingresarProducto.Click += new System.EventHandler(this.Btn_ingresarProducto_Click);
             // 
             // Btn_eliminarProducto
             // 
@@ -277,7 +278,7 @@
             this.Btn_eliminarProducto.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_eliminarProducto.Image = ((System.Drawing.Image)(resources.GetObject("Btn_eliminarProducto.Image")));
             this.Btn_eliminarProducto.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Btn_eliminarProducto.Location = new System.Drawing.Point(393, 95);
+            this.Btn_eliminarProducto.Location = new System.Drawing.Point(639, 459);
             this.Btn_eliminarProducto.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_eliminarProducto.Name = "Btn_eliminarProducto";
             this.Btn_eliminarProducto.Size = new System.Drawing.Size(168, 44);
@@ -296,10 +297,10 @@
             this.Btn_guardar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_guardar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_guardar.Image")));
             this.Btn_guardar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Btn_guardar.Location = new System.Drawing.Point(588, 95);
+            this.Btn_guardar.Location = new System.Drawing.Point(639, 411);
             this.Btn_guardar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_guardar.Name = "Btn_guardar";
-            this.Btn_guardar.Size = new System.Drawing.Size(141, 44);
+            this.Btn_guardar.Size = new System.Drawing.Size(168, 44);
             this.Btn_guardar.TabIndex = 20;
             this.Btn_guardar.TabStop = false;
             this.Btn_guardar.Text = "Guardar";
@@ -320,7 +321,7 @@
             // 
             // Txt_nombreProducto
             // 
-            this.Txt_nombreProducto.Location = new System.Drawing.Point(24, 124);
+            this.Txt_nombreProducto.Location = new System.Drawing.Point(191, 58);
             this.Txt_nombreProducto.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_nombreProducto.Name = "Txt_nombreProducto";
             this.Txt_nombreProducto.ReadOnly = true;
@@ -332,7 +333,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(21, 94);
+            this.label1.Location = new System.Drawing.Point(188, 28);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 19);
@@ -341,7 +342,7 @@
             // 
             // TxtDescripcionProducto
             // 
-            this.TxtDescripcionProducto.Location = new System.Drawing.Point(211, 124);
+            this.TxtDescripcionProducto.Location = new System.Drawing.Point(353, 58);
             this.TxtDescripcionProducto.Margin = new System.Windows.Forms.Padding(2);
             this.TxtDescripcionProducto.Name = "TxtDescripcionProducto";
             this.TxtDescripcionProducto.ReadOnly = true;
@@ -353,7 +354,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(208, 94);
+            this.label2.Location = new System.Drawing.Point(350, 28);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(181, 19);
@@ -368,7 +369,7 @@
             this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(211, 34);
+            this.button1.Location = new System.Drawing.Point(639, 256);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(168, 44);
@@ -385,26 +386,24 @@
             this.groupBox1.Controls.Add(this.Lbl_ordenCompra);
             this.groupBox1.Controls.Add(this.Lbl_noOrden);
             this.groupBox1.Controls.Add(this.Txt_noOrdenCompra);
-            this.groupBox1.Location = new System.Drawing.Point(189, 170);
+            this.groupBox1.Location = new System.Drawing.Point(85, 127);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(549, 88);
+            this.groupBox1.Size = new System.Drawing.Size(346, 88);
             this.groupBox1.TabIndex = 33;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Encabezado Ordne de Compra";
+            this.groupBox1.Text = "Encabezado Orden de Compra";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.btn_agregar);
             this.groupBox2.Controls.Add(this.Lbl_gastosEnvio);
             this.groupBox2.Controls.Add(this.Txt_codigoProducto);
-            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.TxtDescripcionProducto);
             this.groupBox2.Controls.Add(this.Txt_nombreProducto);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Location = new System.Drawing.Point(189, 278);
+            this.groupBox2.Location = new System.Drawing.Point(85, 250);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(549, 170);
+            this.groupBox2.Size = new System.Drawing.Size(549, 112);
             this.groupBox2.TabIndex = 34;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Busqueda de productos";
@@ -417,10 +416,10 @@
             this.btn_agregar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_agregar.Image = ((System.Drawing.Image)(resources.GetObject("btn_agregar.Image")));
             this.btn_agregar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_agregar.Location = new System.Drawing.Point(406, 100);
+            this.btn_agregar.Location = new System.Drawing.Point(639, 304);
             this.btn_agregar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_agregar.Name = "btn_agregar";
-            this.btn_agregar.Size = new System.Drawing.Size(125, 44);
+            this.btn_agregar.Size = new System.Drawing.Size(168, 44);
             this.btn_agregar.TabIndex = 4;
             this.btn_agregar.Text = "Agregar";
             this.btn_agregar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -431,16 +430,16 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(466, 659);
+            this.label3.Location = new System.Drawing.Point(379, 658);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 19);
+            this.label3.Size = new System.Drawing.Size(113, 19);
             this.label3.TabIndex = 35;
-            this.label3.Text = "Total de por orden:";
+            this.label3.Text = "Total de orden:";
             // 
             // Txt_total
             // 
-            this.Txt_total.Location = new System.Drawing.Point(610, 659);
+            this.Txt_total.Location = new System.Drawing.Point(506, 659);
             this.Txt_total.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_total.Name = "Txt_total";
             this.Txt_total.ReadOnly = true;
@@ -456,7 +455,7 @@
             this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = global::SAE_2019.Properties.Resources.boton_web_de_ayuda2;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(726, 53);
+            this.button2.Location = new System.Drawing.Point(747, 63);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(128, 33);
@@ -470,9 +469,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(886, 774);
+            this.Controls.Add(this.btn_agregar);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Txt_total);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Btn_guardar);

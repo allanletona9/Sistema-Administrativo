@@ -22,7 +22,7 @@ namespace SAE_2019.Inventario
 
         private void Frm_admonProductos_Load(object sender, EventArgs e)
         {
-            DataTable table2 = nv.cargarDatos("tbl_productos");
+            DataTable table2 = nv.cargarDatos("tbl_producto");
             dataGridView1.DataSource = table2;
 
             Usuario u = new Usuario();

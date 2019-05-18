@@ -16,6 +16,8 @@ using ConsultasInteligentes;
 using security;
 using InicioSesion;
 using SAE_2019.Facturacion;
+using SAE_2019.Ventas;
+using SAE_2019.Bodegas;
 
 namespace SAE_2019
 {
@@ -113,16 +115,16 @@ namespace SAE_2019
         }
 
         bool ventanaRegistroKardex = false;
-        Frm_kardex frmRegistroDeKardex = new Frm_kardex();
+        Frm_kardexInv frmRegistroDeKardex = new Frm_kardexInv();
 
         private void kardexToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_kardex);
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_kardexInv);
             if (ventanaRegistroKardex == false || frmC == null)
             {
                 if (frmC == null)
                 {
-                    frmRegistroDeKardex = new Frm_kardex();
+                    frmRegistroDeKardex = new Frm_kardexInv();
                 }
                 frmRegistroDeKardex.Location = new Point(500, 600);
 
@@ -234,28 +236,11 @@ namespace SAE_2019
             }
         }
 
-        bool ventanaCuentasPagar = false;
-        Frm_pagosCompras cuentasPagar = new Frm_pagosCompras();
+        
 
         private void cuentasPorPagarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_pagosCompras);
-            if (ventanaCuentasPagar == false || frmC == null)
-            {
-                if (frmC == null)
-                {
-                    cuentasPagar = new Frm_pagosCompras();
-                }
-
-                cuentasPagar.MdiParent = this;
-                cuentasPagar.Show();
-                Application.DoEvents();
-                ventanaCuentasPagar = true;
-            }
-            else
-            {
-                cuentasPagar.WindowState = System.Windows.Forms.FormWindowState.Normal;
-            }
+           
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -408,10 +393,27 @@ namespace SAE_2019
                 frmRegistroSucursales.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
-      
+        bool Vista_devoluciones2 = false;
+        Frm_devoluciones_ventas frmvista_dev2 = new Frm_devoluciones_ventas();
         private void devolucionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_devoluciones_ventas);
+            if (Vista_devoluciones2 == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    frmvista_dev2 = new Frm_devoluciones_ventas();
+                }
+
+                frmvista_dev2.MdiParent = this;
+                frmvista_dev2.Show();
+                Application.DoEvents();
+                Vista_devoluciones2 = true;
+            }
+            else
+            {
+                frmvista_dev2.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
 
         }
       
@@ -470,14 +472,50 @@ namespace SAE_2019
 
         }
 
+        bool ventanaGestionInv = false;
+        Frm_gestionInv gestionInv = new Frm_gestionInv();
         private void cambioDePreciosToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_gestionInv);
+            if (ventanaGestionInv == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    gestionInv = new Frm_gestionInv();
+                }
 
+                gestionInv.MdiParent = this;
+                gestionInv.Show();
+                Application.DoEvents();
+                ventanaGestionInv = true;
+            }
+            else
+            {
+                gestionInv.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
         }
 
+        bool ventanaCuentasPagar = false;
+        Frm_pagosCompras cuentasPagar = new Frm_pagosCompras();
         private void pagoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_pagosCompras);
+            if (ventanaCuentasPagar == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    cuentasPagar = new Frm_pagosCompras();
+                }
 
+                cuentasPagar.MdiParent = this;
+                cuentasPagar.Show();
+                Application.DoEvents();
+                ventanaCuentasPagar = true;
+            }
+            else
+            {
+                cuentasPagar.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
         }
 
         bool ventanaFactura = false;
@@ -485,6 +523,7 @@ namespace SAE_2019
 
         private void facturasToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            
             Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_facturacion);
             if (ventanaFactura == false || frmC == null)
             {
@@ -501,6 +540,82 @@ namespace SAE_2019
             else
             {
                 frmFactura.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+      
+
+        private void cuentasPorCobrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        bool ventanaRegistroMostrarGestion = false;
+        MostrarBodega mostrarGestion = new MostrarBodega();
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is MostrarBodega);
+            if (ventanaRegistroMostrarGestion == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    mostrarGestion = new MostrarBodega();
+                }
+
+                mostrarGestion.MdiParent = this;
+                mostrarGestion.Show();
+                Application.DoEvents();
+                ventanaRegistroMostrarGestion = true;
+            }
+            else
+            {
+                mostrarGestion.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaCuentasCobrar = false;
+        Frm_cuentas_cobrar frmCuentasCobrar = new Frm_cuentas_cobrar();
+        private void cobrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_cuentas_cobrar);
+            if (ventanaCuentasCobrar == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    frmCuentasCobrar = new Frm_cuentas_cobrar();
+                }
+
+                frmCuentasCobrar.MdiParent = this;
+                frmCuentasCobrar.Show();
+                Application.DoEvents();
+                ventanaCuentasCobrar = true;
+            }
+            else
+            {
+                frmCuentasCobrar.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+        bool ventanadevol = false;
+        Frm_Gestion_Devolucion1 frmdevol = new Frm_Gestion_Devolucion1();
+        private void getionDevolucionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Gestion_Devolucion1);
+            if (ventanadevol == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    frmdevol = new Frm_Gestion_Devolucion1();
+                }
+
+                frmdevol.MdiParent = this;
+                frmdevol.Show();
+                Application.DoEvents();
+                ventanadevol = true;
+            }
+            else
+            {
+                frmdevol.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
     }

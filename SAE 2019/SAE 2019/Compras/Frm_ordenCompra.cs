@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using InicioSesion;
 namespace SAE_2019.Compras
 {
     public partial class Frm_OrdenCompra : Form
@@ -28,10 +28,16 @@ namespace SAE_2019.Compras
             this.WindowState = FormWindowState.Minimized;
         }
 
+        string codigousuario = null;
+        string codigoSucursal = null;
+
         private void Frm_facturasCompras_Load(object sender, EventArgs e)
         {
             llenarComboBox();
             obtenerNumeroOrdenCompra();
+            Usuario u = new Usuario();
+            codigousuario = Convert.ToString(u.obtenerCodigoUsuario());
+            sucursalEmpleado();
         }
 
         void llenarComboBox()
@@ -247,7 +253,30 @@ namespace SAE_2019.Compras
             return encontrado;
         }
 
+        private void sucursalEmpleado()
+        {
 
+            try
+            {
+                string selectQuery = "select e.FK_IdSucursal from tbl_usuario u inner join tbl_empleados e on u.FK_IdEmpleado = e.PK_IdEmpleado where u.PK_Usu_Codigo = " + codigousuario;
+
+                OdbcCommand sql = new OdbcCommand(String.Format(selectQuery), conexion.conectar());
+                OdbcDataReader almacena = sql.ExecuteReader();
+                while (almacena.Read() == true)
+                {
+                    codigoSucursal = almacena.GetString(0);
+
+                }
+                almacena.Close();
+
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e + "");
+            }
+
+        }
 
 
         private void Btn_guardar_Click(object sender, EventArgs e)
@@ -312,8 +341,8 @@ namespace SAE_2019.Compras
                             string scodigoOrdenCompra = Txt_noOrdenCompra.Text;
                             string stotalOrdenCompra = Txt_total.Text;
 
-                            OdbcCommand sql = new OdbcCommand("INSERT INTO tbl_orden_compra_encabezado (PK_IdComprasEncabezado, PK_IdProveedores, fecha_pedido, total)" +
-                            " VALUES( " + scodigoOrdenCompra + ", " + scodigoProveedor + ", '" + fecha + "' , " + stotalOrdenCompra + " )", conexion.conectar());
+                            OdbcCommand sql = new OdbcCommand("INSERT INTO tbl_orden_compra_encabezado (PK_IdComprasEncabezado, FK_IdProveedores, FK_Idsucursal, fecha_pedido, total)" +
+                            " VALUES( " + scodigoOrdenCompra + ", " + scodigoProveedor + ", "+ codigoSucursal+", '" + fecha + "' , " + stotalOrdenCompra + " )", conexion.conectar());
                             sql.ExecuteNonQuery();
                             conexion.cerrarConexion();
                             try
@@ -510,6 +539,11 @@ namespace SAE_2019.Compras
         private void button2_Click(object sender, EventArgs e)
         {
             Help.ShowHelp(this, "C:\\Ayuda\\" + "ORDEN.chm", "GESTION.html");
+        }
+
+        private void Btn_ingresarProducto_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

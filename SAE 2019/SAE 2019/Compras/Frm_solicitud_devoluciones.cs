@@ -203,6 +203,78 @@ namespace SAE_2019.Compras
             Help.ShowHelp(this, "C:\\Ayuda\\" + "Devoluciones.chm", "COMPRAS.html");
         }
 
+        private void Lbl_facturas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Lbl_noOrden_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Txt_nodevolucion_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbx_emp_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string id_emp = cbx_emp.Text;
+            try
+            {
+                OdbcCommand sql = new OdbcCommand("SELECT FE.PK_IdEmpleado,FE.nombre_empleado,FE.FK_IdSucursal ,OCE.nombre_sucursal FROM tbl_empleados FE INNER JOIN tbl_surcursal OCE ON OCE.PK_IdSucursal = FE.FK_IdSucursal WHERE FE.PK_IdEmpleado = " + id_emp, conexion.conectar());
+                OdbcDataReader almacena = sql.ExecuteReader();
+                while (almacena.Read() == true)
+                {
+                    txt_nom_emp.Text = almacena.GetString(1);
+                    lbl_sucur.Text = almacena.GetString(2);
+                    txt_sucursal.Text = almacena.GetString(3);
+
+
+                }
+
+                almacena.Close();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+
+
+            }
+        }
+
+        private void dataGridView_dev_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
         private void Btn_guardar_Click(object sender, EventArgs e)
         {
 
@@ -223,6 +295,7 @@ namespace SAE_2019.Compras
             string cantidadd = cantidad_dev.Text;
             string scodigoDevolucion = Txt_nodevolucion.Text;
             string sestado_dev = Txt_estado.Text;
+            string sucursal = txt_sucursal.Text;
 
             string fecha = fechaHoy.ToString("d");
             
@@ -243,8 +316,8 @@ namespace SAE_2019.Compras
                     prod_nom = Fila.Cells[3].Value.ToString();
                     cant_dev = Fila.Cells[4].Value.ToString();
 
-                    cmd2 = new OdbcCommand("INSERT INTO tbl_devoluciones_detalle (FK_IdDevolucion, FK_IdProducto, cantidad_producto) " +
-               "VALUES ('" + scodigodevolucion + "','" + prod_nom + "','" + cant_dev + "' )", conexion.conectar());
+                    cmd2 = new OdbcCommand("INSERT INTO tbl_devoluciones_detalle (FK_IdDevolucion, FK_IdProducto, cantidad_producto,FK_IdSucursal ) " +
+               "VALUES ('" + scodigodevolucion + "','" + prod_nom + "','" + cant_dev + "','" + lbl_sucur.Text + "' )", conexion.conectar());
                     cmd2.ExecuteNonQuery();
 
 
@@ -253,16 +326,7 @@ namespace SAE_2019.Compras
                 MessageBox.Show("Solicitud Ingresada");
               
 
-              /*  combo_prod = "";
-                prod = "";
-                scodigoDevolucion = "";
-                sempleado = "";
-                sdescripcion = "";
-                sproducto = "";
-                sdescripcion = "";
-                sproducto = "";
-                cantidadd = "";
-                scodigoDevolucion = "";*/
+              
 
             }
             catch (OdbcException ex)

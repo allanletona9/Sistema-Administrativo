@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.Odbc;
+using InicioSesion;
 
 namespace SAE_2019.Facturacion
 {
@@ -25,9 +26,12 @@ namespace SAE_2019.Facturacion
 
         private void Frm_consultaProducto_Load(object sender, EventArgs e)
         {
+            Usuario user = new Usuario();
+            string codUsuario = Convert.ToString(user.obtenerCodigoUsuario());
+            Console.WriteLine(codUsuario);
             try
             {
-                string consultaMostrar = "SELECT * FROM tbl_productos;";
+                string consultaMostrar = "SELECT P.*, I.existencia FROM tbl_inventario I INNER JOIN tbl_producto P ON I.Pk_IdProducto = P.Pk_IdProducto INNER JOIN tbl_empleados E ON I.PK_IdSucursal = E.Fk_IdSucursal INNER JOIN tbl_usuario U ON E.PK_IdEmpleado = U.Fk_IdEmpleado WHERE U.PK_Usu_Codigo = " + codUsuario;
                 OdbcCommand comm = new OdbcCommand(consultaMostrar, conexion.conectar());
                 OdbcDataReader mostrarDatos = comm.ExecuteReader();
 
@@ -35,7 +39,8 @@ namespace SAE_2019.Facturacion
                 {
                     Dgv_consultaProducto.Refresh();
                     Dgv_consultaProducto.Rows.Add(mostrarDatos.GetString(0), mostrarDatos.GetString(1), mostrarDatos.GetString(2),
-                        mostrarDatos.GetString(3), mostrarDatos.GetString(4), mostrarDatos.GetString(5), mostrarDatos.GetString(6));
+                        mostrarDatos.GetString(3), mostrarDatos.GetString(4), mostrarDatos.GetString(5), mostrarDatos.GetString(6),
+                        mostrarDatos.GetString(7));
                 }
 
             }
@@ -47,12 +52,16 @@ namespace SAE_2019.Facturacion
 
         private void Btn_buscar_Click(object sender, EventArgs e)
         {
+            Usuario user = new Usuario();
+            string codUsuario = Convert.ToString(user.obtenerCodigoUsuario());
+
             if (string.IsNullOrEmpty(Txt_buscarProducto.Text.Trim()) == false)
             {
                 Dgv_consultaProducto.Rows.Clear();
                 try
                 {
-                    string consultaMostrar = "SELECT * FROM tbl_productos WHERE nombre_producto LIKE ('%" + Txt_buscarProducto.Text.Trim() + "%');";
+                   // string consultaMostrar = "SELECT * FROM tbl_productos WHERE nombre_producto LIKE ('%" + Txt_buscarProducto.Text.Trim() + "%');";
+                    string consultaMostrar = "SELECT P.*, I.existencia FROM tbl_inventario I INNER JOIN tbl_producto P ON I.Pk_IdProducto = P.Pk_IdProducto INNER JOIN tbl_empleados E ON I.PK_IdSucursal = E.Fk_IdSucursal INNER JOIN tbl_usuario U ON E.PK_IdEmpleado = U.Fk_IdEmpleado WHERE U.PK_Usu_Codigo = " + codUsuario + " AND nombre_producto LIKE ('%" + Txt_buscarProducto.Text.Trim() + "%');";
                     OdbcCommand comm = new OdbcCommand(consultaMostrar, conexion.conectar());
                     OdbcDataReader mostrarDatos = comm.ExecuteReader();
 
@@ -60,7 +69,8 @@ namespace SAE_2019.Facturacion
                     {
                         Dgv_consultaProducto.Refresh();
                         Dgv_consultaProducto.Rows.Add(mostrarDatos.GetString(0), mostrarDatos.GetString(1), mostrarDatos.GetString(2),
-                            mostrarDatos.GetString(3), mostrarDatos.GetString(4), mostrarDatos.GetString(5), mostrarDatos.GetString(6));
+                            mostrarDatos.GetString(3), mostrarDatos.GetString(4), mostrarDatos.GetString(5), mostrarDatos.GetString(6),
+                            mostrarDatos.GetString(7));
                     }
                 }
                 catch (Exception err)
@@ -72,11 +82,13 @@ namespace SAE_2019.Facturacion
 
         private void Btn_actualizar_Click(object sender, EventArgs e)
         {
+            Usuario user = new Usuario();
+            string codUsuario = Convert.ToString(user.obtenerCodigoUsuario());
             try
             {
                 Dgv_consultaProducto.Rows.Clear();
 
-                string consultaMostrar = "SELECT * FROM tbl_productos;";
+                string consultaMostrar = "SELECT P.*, I.existencia FROM tbl_inventario I INNER JOIN tbl_producto P ON I.Pk_IdProducto = P.Pk_IdProducto INNER JOIN tbl_empleados E ON I.PK_IdSucursal = E.Fk_IdSucursal INNER JOIN tbl_usuario U ON E.PK_IdEmpleado = U.Fk_IdEmpleado WHERE U.PK_Usu_Codigo = " + codUsuario;
                 OdbcCommand comm = new OdbcCommand(consultaMostrar, conexion.conectar());
                 OdbcDataReader mostrarDatos = comm.ExecuteReader();
 
@@ -84,7 +96,8 @@ namespace SAE_2019.Facturacion
                 {
                     Dgv_consultaProducto.Refresh();
                     Dgv_consultaProducto.Rows.Add(mostrarDatos.GetString(0), mostrarDatos.GetString(1), mostrarDatos.GetString(2),
-                        mostrarDatos.GetString(3), mostrarDatos.GetString(4), mostrarDatos.GetString(5), mostrarDatos.GetString(6));
+                        mostrarDatos.GetString(3), mostrarDatos.GetString(4), mostrarDatos.GetString(5), mostrarDatos.GetString(6),
+                        mostrarDatos.GetString(7));
                 }
 
             }
